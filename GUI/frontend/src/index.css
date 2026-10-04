@@ -1,4 +1,4 @@
-/* Reset & Global Illustrative Warm Theme (8AD6D1, 359FA0, FFF0C5, FF8C52) */
+/* Reset & Global Styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,13 +7,50 @@
 
 body {
   font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  background-color: #FCF9F0;
+  background-color: #B8CAD9;
   color: #163333;
   min-height: 100vh;
   overflow-x: hidden;
 }
 
-/* Crisp, Clean Card Styling with Refined Borders and Sleek Corners */
+/* Luxury Ethereal Blue Hero Canvas */
+.hero-canvas {
+  background: radial-gradient(circle at 50% 20%, #D1E1EC 0%, #BCCEDD 40%, #A9BFD1 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Glassmorphism Styles Matching Reference */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1.5px solid rgba(255, 255, 255, 0.55);
+  box-shadow: 0 16px 40px -12px rgba(45, 75, 105, 0.15);
+}
+
+.glass-panel-subtle {
+  background: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.38);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  box-shadow: 0 4px 16px -2px rgba(45, 75, 105, 0.08);
+}
+
+.sculpted-white-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 20px 45px -10px rgba(35, 65, 95, 0.18);
+}
+
+/* Crisp, Clean Card Styling for Workspace */
 .illustrative-card {
   background-color: #FFFFFF;
   border: 1px solid #EDE4D2;

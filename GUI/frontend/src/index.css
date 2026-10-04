@@ -50,33 +50,33 @@ body {
   box-shadow: 0 20px 45px -10px rgba(35, 65, 95, 0.18);
 }
 
-/* Crisp, Clean Card Styling for Workspace */
+/* Crisp, Clean Card Styling for Workspace (Color Hunt Palette: #E3F2FD, #90CAF9, #2196F3, #0D47A1) */
 .illustrative-card {
   background-color: #FFFFFF;
-  border: 1px solid #EDE4D2;
-  border-radius: 12px;
-  box-shadow: 0 2px 14px -2px rgba(53, 159, 160, 0.08), 0 1px 4px rgba(237, 228, 210, 0.5);
+  border: 1px solid #BBDEFB;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px -4px rgba(13, 71, 161, 0.08), 0 1px 3px rgba(144, 202, 249, 0.3);
 }
 
 .illustrative-card-subtle {
-  background-color: #FFFBF2;
-  border: 1px solid #F2EADA;
-  border-radius: 10px;
+  background-color: #F5FAFF;
+  border: 1px solid #BBDEFB;
+  border-radius: 12px;
 }
 
 .illustrative-card-interactive {
   transition: all 0.2s ease-in-out;
 }
 .illustrative-card-interactive:hover {
-  border-color: #359FA0;
+  border-color: #2196F3;
   transform: translateY(-1px);
-  box-shadow: 0 4px 18px -2px rgba(53, 159, 160, 0.16);
+  box-shadow: 0 6px 22px -2px rgba(33, 150, 243, 0.18);
 }
 
-/* Warm Dotted Pattern for Natural Field Notebook Aesthetic */
-.bg-warm-dots {
+/* Atmospheric Dotted Pattern for Bioacoustic Workspace */
+.bg-blue-dots {
   background-size: 24px 24px;
-  background-image: radial-gradient(rgba(138, 214, 209, 0.3) 1.1px, transparent 1.1px);
+  background-image: radial-gradient(rgba(33, 150, 243, 0.22) 1.1px, transparent 1.1px);
 }
 
 /* Scrollbars */
@@ -85,33 +85,33 @@ body {
   height: 7px;
 }
 ::-webkit-scrollbar-track {
-  background: #FCF9F0;
+  background: #E3F2FD;
 }
 ::-webkit-scrollbar-thumb {
-  background: #8AD6D1;
+  background: #90CAF9;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #359FA0;
+  background: #2196F3;
 }
 
 /* Leaflet Container Styling */
 .leaflet-container {
   width: 100%;
   height: 100%;
-  border-radius: 10px;
-  background-color: #FFF0C5 !important;
+  border-radius: 12px;
+  background-color: #E3F2FD !important;
   font-family: inherit;
 }
 
 .leaflet-popup-content-wrapper {
-  background: #FFFDF7 !important;
-  color: #163333 !important;
-  border-radius: 10px !important;
-  box-shadow: 0 6px 20px -3px rgba(53, 159, 160, 0.2) !important;
-  border: 1.5px solid #359FA0 !important;
+  background: #FFFFFF !important;
+  color: #0D47A1 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 24px -3px rgba(13, 71, 161, 0.2) !important;
+  border: 1.5px solid #2196F3 !important;
 }
 
 .leaflet-popup-tip {
-  background: #FFFDF7 !important;
+  background: #FFFFFF !important;
 }

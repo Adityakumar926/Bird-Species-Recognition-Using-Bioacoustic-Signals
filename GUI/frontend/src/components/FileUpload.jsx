@@ -84,12 +84,12 @@ export default function FileUpload({ onUploadSuccess, isLoading, setIsLoading })
 
   return (
     <div className="w-full">
-      {/* Illustrative Upload Dropzone with Palette (8AD6D1, 359FA0, FFF0C5, FF8C52) */}
+      {/* Upload Dropzone with Color Hunt Palette (#E3F2FD, #90CAF9, #2196F3, #0D47A1) */}
       <div
-        className={`relative rounded-xl border border-dashed transition-all duration-200 p-7 sm:p-9 text-center cursor-pointer shadow-sm ${
+        className={`relative rounded-2xl border-2 border-dashed transition-all duration-200 p-7 sm:p-9 text-center cursor-pointer shadow-sm ${
           dragActive
-            ? 'border-[#FF8C52] bg-[#FFF0C5]/45'
-            : 'border-[#DDD2B8] hover:border-[#359FA0] bg-white/95 hover:bg-[#FFFBF2]'
+            ? 'border-[#2196F3] bg-[#E3F2FD]'
+            : 'border-[#90CAF9] hover:border-[#2196F3] bg-white hover:bg-[#F5FAFF]'
         } ${isLoading ? 'opacity-65 pointer-events-none' : ''}`}
         onDragEnter={handleDrag}
         onDragLeave={handleDrag}
@@ -107,11 +107,11 @@ export default function FileUpload({ onUploadSuccess, isLoading, setIsLoading })
 
         <div className="flex flex-col items-center justify-center gap-3">
           {/* Illustrative Icon Badge */}
-          <div className="h-14 w-14 rounded-xl bg-gradient-to-tr from-[#FFF0C5] to-[#8AD6D1]/40 border border-[#EEDBBA] flex items-center justify-center text-[#359FA0] shadow-sm">
+          <div className="h-14 w-14 rounded-2xl bg-gradient-to-tr from-[#E3F2FD] to-[#90CAF9]/40 border border-[#90CAF9] flex items-center justify-center text-[#2196F3] shadow-sm">
             {isLoading ? (
-              <Loader2 className="h-7 w-7 animate-spin text-[#FF8C52]" />
+              <Loader2 className="h-7 w-7 animate-spin text-[#2196F3]" />
             ) : isParquet ? (
-              <FileSpreadsheet className="h-7 w-7 text-[#FF8C52]" />
+              <FileSpreadsheet className="h-7 w-7 text-[#0D47A1]" />
             ) : (
               <UploadCloud className="h-7 w-7 stroke-[2.2]" />
             )}
@@ -119,7 +119,7 @@ export default function FileUpload({ onUploadSuccess, isLoading, setIsLoading })
 
           {/* Heading */}
           <div>
-            <h3 className="text-base sm:text-lg font-bold text-[#163333] mb-1">
+            <h3 className="text-base sm:text-lg font-bold text-[#0D47A1] mb-1">
               {isLoading ? (
                 'Analyzing Bioacoustic Signal with BANet...'
               ) : selectedFile ? (
@@ -128,34 +128,34 @@ export default function FileUpload({ onUploadSuccess, isLoading, setIsLoading })
                 'Drop Bioacoustic Audio or Dataset Shard'
               )}
             </h3>
-            <p className="text-xs text-[#4B6B6C] max-w-md mx-auto">
+            <p className="text-xs text-[#42658A] max-w-md mx-auto">
               Select or drop any field sound recording to compute amplitude waveforms and species intelligence
             </p>
           </div>
 
           {/* Supported Format Badges using Palette */}
           <div className="flex items-center gap-1.5 flex-wrap justify-center mt-1">
-            <span className="text-[11px] font-bold px-2.5 py-1 rounded-md bg-[#FFF0C5]/80 border border-[#F3DEB0] text-[#7A4E24]">
+            <span className="text-[11px] font-bold px-2.5 py-1 rounded-md bg-[#E3F2FD] border border-[#90CAF9] text-[#0D47A1]">
               .WAV
             </span>
-            <span className="text-[11px] font-bold px-2.5 py-1 rounded-md bg-[#FFF0C5]/80 border border-[#F3DEB0] text-[#7A4E24]">
+            <span className="text-[11px] font-bold px-2.5 py-1 rounded-md bg-[#E3F2FD] border border-[#90CAF9] text-[#0D47A1]">
               .MP3
             </span>
-            <span className="text-[11px] font-bold px-2.5 py-1 rounded-md bg-[#FFF0C5]/80 border border-[#F3DEB0] text-[#7A4E24]">
+            <span className="text-[11px] font-bold px-2.5 py-1 rounded-md bg-[#E3F2FD] border border-[#90CAF9] text-[#0D47A1]">
               .OGG
             </span>
-            <span className="text-[11px] font-bold px-2.5 py-1 rounded-md bg-[#FFF0C5]/80 border border-[#F3DEB0] text-[#7A4E24]">
+            <span className="text-[11px] font-bold px-2.5 py-1 rounded-md bg-[#E3F2FD] border border-[#90CAF9] text-[#0D47A1]">
               .FLAC
             </span>
-            <span className="text-[11px] font-extrabold px-2.5 py-1 rounded-md bg-[#8AD6D1]/30 border border-[#359FA0]/50 text-[#175253]">
+            <span className="text-[11px] font-extrabold px-2.5 py-1 rounded-md bg-[#2196F3]/15 border border-[#2196F3] text-[#0D47A1]">
               .PARQUET (BirdCLEF Shards)
             </span>
           </div>
 
           {/* Parquet Alert Badge */}
           {isParquet && !isLoading && (
-            <div className="mt-2 inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-[#8AD6D1]/25 border border-[#359FA0]/40 text-[#185354] text-xs font-semibold">
-              <CheckCircle2 className="h-3.5 w-3.5 text-[#359FA0]" />
+            <div className="mt-2 inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-[#E3F2FD] border border-[#90CAF9] text-[#0D47A1] text-xs font-semibold">
+              <CheckCircle2 className="h-3.5 w-3.5 text-[#2196F3]" />
               <span>BirdCLEF Parquet File Detected &bull; Extracting embedded byte stream</span>
             </div>
           )}

@@ -25,17 +25,17 @@ export default function Header() {
     <header className="border-b border-[#EDE4D2] bg-[#FFFDF7]/95 backdrop-blur-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-wrap items-center justify-between gap-4">
         {/* Brand */}
-        <div className="flex items-center gap-3">
-          <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-[#359FA0] to-[#226F70] flex items-center justify-center text-white shadow-sm border border-white/40">
-            <Bird className="h-5 w-5 stroke-[2.2]" />
+        <div className="flex items-center gap-2.5 select-none">
+          <div className="h-9 w-9 rounded-full bg-white border border-[#BBDEFB] flex items-center justify-center shadow-sm">
+            <Bird className="h-5 w-5 stroke-[2.2] text-[#425B9A]" />
           </div>
-          <div>
-            <h1 className="text-xl font-extrabold tracking-tight text-[#163333] m-0">
-              BioAcoustic<span className="text-[#FF8C52]">AI</span>
-            </h1>
-            <p className="text-xs text-[#4B6B6C] font-medium m-0">
-              Bird Species Recognition &amp; Habitat Intelligence System
-            </p>
+          <div className="flex items-center gap-1.5">
+            <span className="font-sans font-bold text-lg text-[#0D47A1] tracking-tight">
+              Blue Bird
+            </span>
+            <span className="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full bg-[#E3F2FD] border border-[#90CAF9] text-[#2196F3] shadow-sm">
+              AI
+            </span>
           </div>
         </div>
 

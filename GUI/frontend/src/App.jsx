@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import LandingNavbar from './components/LandingNavbar';
 import LandingHero from './components/LandingHero';
+import FeatureShowcase from './components/FeatureShowcase';
 import FileUpload from './components/FileUpload';
 import Visualizer from './components/Visualizer';
 import SpeciesIntelligence from './components/SpeciesIntelligence';
@@ -23,32 +24,62 @@ export default function App() {
   return (
     <div className="min-h-screen text-[#163333] flex flex-col font-sans">
       {/* =========================================================================
-          VIEW 1: Pure Landing Page (Matching Reference Design Hero Section)
+          VIEW 1: Pure Landing Page (Hero Section + Scroll-Reveal Feature Showcase)
           ========================================================================= */}
       {currentView === 'landing' && (
-        <div className="h-screen max-h-screen w-full overflow-hidden flex flex-col justify-between hero-canvas">
-          {/* Top Navbar */}
-          <LandingNavbar
-            onLaunchClick={() => {
-              setCurrentView('prediction');
-              window.scrollTo({ top: 0, behavior: 'instant' });
-            }}
-            onSectionClick={(sec) => {
-              if (sec !== 'home') {
-                setCurrentView('prediction');
-                window.scrollTo({ top: 0, behavior: 'instant' });
-              }
-            }}
-          />
-
-          {/* Hero Section */}
-          <div className="flex-1 flex flex-col min-h-0 overflow-hidden">
-            <LandingHero
+        <div className="min-h-screen w-full overflow-x-hidden flex flex-col hero-canvas">
+          {/* 1A. Hero Viewport Screen (Full 100vh Initial Experience) */}
+          <div className="h-screen max-h-screen w-full flex flex-col justify-between shrink-0 relative">
+            {/* Top Navbar */}
+            <LandingNavbar
               onLaunchClick={() => {
                 setCurrentView('prediction');
                 window.scrollTo({ top: 0, behavior: 'instant' });
               }}
-              onExploreClick={() => {
+              onSectionClick={(sec) => {
+                if (sec === 'home') {
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                  return;
+                }
+                const targetEl = document.getElementById(sec);
+                if (targetEl) {
+                  targetEl.scrollIntoView({ behavior: 'smooth' });
+                  return;
+                }
+                const showcaseEl = document.getElementById('feature-showcase');
+                if (showcaseEl) {
+                  showcaseEl.scrollIntoView({ behavior: 'smooth' });
+                  return;
+                }
+                setCurrentView('prediction');
+                window.scrollTo({ top: 0, behavior: 'instant' });
+              }}
+            />
+
+            {/* Hero Section */}
+            <div className="flex-1 flex flex-col min-h-0 overflow-hidden">
+              <LandingHero
+                onLaunchClick={() => {
+                  setCurrentView('prediction');
+                  window.scrollTo({ top: 0, behavior: 'instant' });
+                }}
+                onExploreClick={() => {
+                  const showcaseEl = document.getElementById('feature-showcase');
+                  if (showcaseEl) {
+                    showcaseEl.scrollIntoView({ behavior: 'smooth' });
+                  } else {
+                    setCurrentView('prediction');
+                    window.scrollTo({ top: 0, behavior: 'instant' });
+                  }
+                }}
+              />
+            </div>
+          </div>
+
+          {/* 1B. Scroll-Reveal Feature Showcase Section */}
+          <div id="feature-showcase" className="w-full">
+            <FeatureShowcase
+              onLaunchClick={() => {
                 setCurrentView('prediction');
                 window.scrollTo({ top: 0, behavior: 'instant' });
               }}

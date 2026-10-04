@@ -14,54 +14,54 @@ export default function LandingNavbar({ onLaunchClick, onSectionClick }) {
           <Bird className="h-5 w-5 stroke-[2.2] text-[#425B9A]" />
         </div>
 
-        {/* Wordmark: Blue Bird AI */}
+        {/* Wordmark: Blue Bird AI in #425B9A */}
         <div className="flex items-center gap-1.5">
-          <span className="font-sans font-bold text-lg text-white tracking-tight drop-shadow-sm">
+          <span className="font-sans font-bold text-lg text-[#425B9A] tracking-tight">
             Blue Bird
           </span>
-          <span className="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full bg-white/25 border border-white/50 text-white shadow-sm backdrop-blur-sm">
+          <span className="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full bg-white/50 border border-[#425B9A]/30 text-[#425B9A] shadow-xs backdrop-blur-sm">
             AI
           </span>
         </div>
       </div>
 
       {/* Floating Center Pill Navigation */}
-      <div className="hidden md:flex items-center gap-7 px-7 py-2.5 rounded-full bg-white/25 backdrop-blur-md border border-white/40 shadow-sm text-xs font-semibold text-[#1E3B54]">
+      <div className="hidden md:flex items-center gap-6 px-7 py-2.5 rounded-full bg-white/35 backdrop-blur-md border border-white/60 shadow-sm text-xs font-semibold text-[#1C3852]">
         <button
-          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="hover:text-[#0C2438] transition-colors cursor-pointer"
+          onClick={() => onSectionClick ? onSectionClick('home') : window.scrollTo({ top: 0, behavior: 'smooth' })}
+          className="hover:text-[#0B67E3] transition-colors cursor-pointer"
         >
           home
         </button>
         <button
-          onClick={() => onSectionClick && onSectionClick('species')}
-          className="hover:text-[#0C2438] transition-colors cursor-pointer"
+          onClick={() => onSectionClick && onSectionClick('ingestion')}
+          className="hover:text-[#0B67E3] transition-colors cursor-pointer"
         >
-          species catalog
+          audio ingestion
         </button>
         <button
-          onClick={() => onSectionClick && onSectionClick('analyzer')}
-          className="hover:text-[#0C2438] transition-colors cursor-pointer"
+          onClick={() => onSectionClick && onSectionClick('spectral')}
+          className="hover:text-[#0B67E3] transition-colors cursor-pointer"
         >
-          audio analyzer
+          spectral visualizer
         </button>
         <button
-          onClick={() => onSectionClick && onSectionClick('habitat')}
-          className="hover:text-[#0C2438] transition-colors cursor-pointer"
+          onClick={() => onSectionClick && onSectionClick('classification')}
+          className="hover:text-[#0B67E3] transition-colors cursor-pointer"
         >
-          habitat maps
+          species intelligence
         </button>
         <button
-          onClick={() => onSectionClick && onSectionClick('model')}
-          className="hover:text-[#0C2438] transition-colors cursor-pointer"
+          onClick={() => onSectionClick && onSectionClick('classification')}
+          className="hover:text-[#0B67E3] transition-colors cursor-pointer"
+        >
+          habitat map
+        </button>
+        <button
+          onClick={() => onSectionClick && onSectionClick('classification')}
+          className="hover:text-[#0B67E3] transition-colors cursor-pointer"
         >
           neural model
-        </button>
-        <button
-          onClick={() => onSectionClick && onSectionClick('research')}
-          className="hover:text-[#0C2438] transition-colors cursor-pointer"
-        >
-          research
         </button>
       </div>
 

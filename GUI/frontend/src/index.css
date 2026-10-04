@@ -22,10 +22,10 @@ body {
 
 /* Glassmorphism Styles Matching Reference */
 .glass-panel {
-  background: rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.36);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  border: 1.5px solid rgba(255, 255, 255, 0.55);
+  border: 1.5px solid rgba(255, 255, 255, 0.75);
   box-shadow: 0 16px 40px -12px rgba(45, 75, 105, 0.15);
 }
 

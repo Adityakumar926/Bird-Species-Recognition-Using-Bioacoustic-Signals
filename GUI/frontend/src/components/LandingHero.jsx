@@ -42,7 +42,7 @@ export default function LandingHero({ onLaunchClick, onExploreClick }) {
             </span>
           </h1>
 
-          <p className="text-xs sm:text-[13px] text-white/90 max-w-[270px] leading-relaxed font-medium pt-1">
+          <p className="text-xs sm:text-[13px] text-[#3B5A7A] max-w-[270px] leading-relaxed font-medium pt-1">
             At the forefront of bioacoustic AI, identifying 264+ bird species through deep audio intelligence
           </p>
 
@@ -73,7 +73,7 @@ export default function LandingHero({ onLaunchClick, onExploreClick }) {
         <div className="flex flex-col items-end w-full lg:w-auto">
           {/* Floating Proof Pill directly above Card 3 */}
           <div className="flex justify-end mb-3 pr-2">
-            <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-white/25 backdrop-blur-md border border-white/50 shadow-sm text-xs text-white">
+            <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-white/50 backdrop-blur-md border border-white/70 shadow-sm text-xs">
               {/* Overlapping Realistic Researcher Avatar Circles */}
               <div className="flex -space-x-2 overflow-hidden">
                 <img
@@ -97,8 +97,8 @@ export default function LandingHero({ onLaunchClick, onExploreClick }) {
                   className="inline-block h-6 w-6 rounded-full ring-2 ring-white/90 object-cover"
                 />
               </div>
-              <span className="font-medium text-white/90 text-[11px]">Field Researchers</span>
-              <span className="font-extrabold text-white text-[11px]">+480</span>
+              <span className="font-semibold text-[#45637D] text-[11px]">Field Researchers</span>
+              <span className="font-extrabold text-[#112F49] text-[11px]">+480</span>
             </div>
           </div>
 
@@ -109,21 +109,21 @@ export default function LandingHero({ onLaunchClick, onExploreClick }) {
               {/* Upper row: Crystal Shield Asset + Tag + Arrow */}
               <div className="flex items-start justify-between gap-2">
                 <div className="flex items-center gap-2.5">
-                  <div className="h-11 w-11 rounded-2xl bg-white/40 border border-white/70 overflow-hidden flex items-center justify-center p-0.5 shadow-sm shrink-0">
+                  <div className="h-11 w-11 rounded-2xl bg-white/60 border border-white/80 overflow-hidden flex items-center justify-center p-0.5 shadow-sm shrink-0">
                     <img src={soundWaveCrystalImg} alt="Bioacoustic Sound Wave" className="w-full h-full object-cover rounded-xl" />
                   </div>
-                  <span className="text-[10px] font-bold tracking-wider px-2.5 py-1 rounded-full bg-white/40 text-white border border-white/60 whitespace-nowrap">
+                  <span className="text-[10px] font-bold tracking-wider px-2.5 py-1 rounded-full bg-white/60 text-[#425B9A] border border-white/80 whitespace-nowrap shadow-xs">
                     Bioacoustic AI
                   </span>
                 </div>
-                <div className="h-7 w-7 rounded-full bg-white/35 border border-white/60 flex items-center justify-center text-white shrink-0">
-                  <ArrowUpRight className="h-3.5 w-3.5" />
+                <div className="h-7 w-7 rounded-full bg-white/70 border border-white/90 flex items-center justify-center text-[#1C3852] shadow-xs shrink-0">
+                  <ArrowUpRight className="h-3.5 w-3.5 stroke-[2.2]" />
                 </div>
               </div>
 
               {/* Title */}
               <div className="mt-2">
-                <h4 className="text-sm font-bold text-white leading-snug">
+                <h4 className="text-sm font-extrabold text-[#112F49] leading-snug">
                   Instant 264-species identification
                 </h4>
               </div>
@@ -175,18 +175,18 @@ export default function LandingHero({ onLaunchClick, onExploreClick }) {
               {/* Upper row: Stat Number + Arrow */}
               <div className="flex items-start justify-between">
                 <div>
-                  <span className="text-5xl font-light font-sans text-white drop-shadow-sm tracking-tight leading-none">
-                    98<span className="text-3xl font-extralight text-white/90">%</span>
+                  <span className="text-5xl font-light font-sans text-[#112F49] drop-shadow-sm tracking-tight leading-none">
+                    98<span className="text-3xl font-normal text-[#425B9A]">%</span>
                   </span>
                 </div>
-                <div className="h-7 w-7 rounded-full bg-white/35 border border-white/60 flex items-center justify-center text-white shrink-0">
-                  <ArrowUpRight className="h-3.5 w-3.5" />
+                <div className="h-7 w-7 rounded-full bg-white/70 border border-white/90 flex items-center justify-center text-[#1C3852] shadow-xs shrink-0">
+                  <ArrowUpRight className="h-3.5 w-3.5 stroke-[2.2]" />
                 </div>
               </div>
 
               {/* Description */}
               <div className="mt-2">
-                <p className="text-[11px] text-white/90 font-medium leading-relaxed">
+                <p className="text-[11px] text-[#55738C] font-medium leading-relaxed">
                   Precision benchmark across complex avian vocalizations in natural field soundscapes.
                 </p>
               </div>

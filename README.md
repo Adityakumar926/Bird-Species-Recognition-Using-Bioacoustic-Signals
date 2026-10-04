@@ -281,12 +281,15 @@ for pred in results:
 
 ## Web Application UI & UX Highlights
 
-The Web GUI is crafted with an **Illustrative Design** aesthetic and the soothing [Color Hunt Earth & Sky Palette](https://colorhunt.co/palette/81a6c6aacddcf3e3d0d2c4b4):
+The Web GUI is crafted with an **Illustrative Design** aesthetic and the vibrant, nature-inspired [Color Hunt Turquoise & Coral Palette](https://colorhunt.co/palette/8ad6d1359fa0fff0c5ff8c52):
 
-- **Soothing Natural Canvas (`#F8F4EE`)**: Eliminates harsh white glare using a natural field notebook dotted texture.
-- **Accents & Dials**: Muted Blue (`#81A6C6`), Soft Sky (`#AACDDC`), Warm Sand (`#F3E3D0`), and Warm Greige (`#D2C4B4`).
-- **Interactive Audio Waveform**: Mirrored amplitude sound pressure envelope with playhead synchronization and timeline scrubbing.
-- **2D Log-Mel Spectrogram Canvas**: Visualizes spectral acoustic energy density across 128 Mel frequency bins.
+- **Soothing Canvas (`#FCF9F0`)**: Eliminates harsh glare with a natural field-notebook warm base and subtle dotted texture.
+- **Ocean Teal (`#359FA0`)**: Primary brand emblems, crisp headings, active border states, and high-frequency audio indicators.
+- **Soft Mint Turquoise (`#8AD6D1`)**: Waveform upper mirror bars, secondary accent badges, and soft luminous glows.
+- **Warm Butter Cream (`#FFF0C5`)**: Soothing telemetry containers, pill badges, and Leaflet popup card accents.
+- **Sunset Coral (`#FF8C52`)**: Audio player scrub controls, waveform playhead, Rank #1 match hero badge, and confidence metrics.
+- **Interactive Audio Waveform**: Mirrored amplitude sound pressure envelope with real-time audio scrub synchronization.
+- **2D Log-Mel Spectrogram Canvas**: High-resolution spectral energy density rendered across 128 Mel frequency bins.
 - **Large Geographic Habitat Map**: Full-width `480px` display at the bottom showing exact field observation coordinates with zero required API keys.
 
 ---

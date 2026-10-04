@@ -1,0 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 870.68125 3150.382" width="870.68125" height="3150.382" style="--bg:#1F1F1F;--fg:#CCCCCC;--line:#CCCCCC;--accent:#0078D4;--muted:#CCCCCCCC;--surface:#181818;--border:#CCCCCC;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<g class="subgraph" data-id="STAGE1" data-label="Stage 1: Bioacoustic Audio Signal Standardization">
+  <rect x="327.24825" y="40" width="271.056" height="554.8" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="327.24825" y="40" width="271.056" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="339.24825" y="54" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Stage 1: Bioacoustic Audio Signal Standardization</text>
+</g>
+<g class="subgraph" data-id="STAGE2" data-label="Stage 2: Pre-trained EfficientNet-B0 Backbone (Transfer Learning)">
+  <rect x="299.83124999999995" y="654.8" width="325.89" height="521" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="299.83124999999995" y="654.8" width="325.89" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="311.83124999999995" y="668.8" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Stage 2: Pre-trained EfficientNet-B0 Backbone (Transfer Learning)</text>
+</g>
+<g class="subgraph" data-id="STAGE3" data-label="Stage 3: BANet BioAcoustic Dual Attention Engine">
+  <rect x="40" y="1235.8" width="790.68125" height="751.287" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="40" y="1235.8" width="790.68125" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="52" y="1249.8" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Stage 3: BANet BioAcoustic Dual Attention Engine</text>
+</g>
+<g class="subgraph" data-id="STAGE4" data-label="Stage 4: Dual Pooling Fusion">
+  <rect x="127.75262500000012" y="2047.087" width="601.0969999999999" height="232.5" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="127.75262500000012" y="2047.087" width="601.0969999999999" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="139.75262500000014" y="2061.087" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Stage 4: Dual Pooling Fusion</text>
+</g>
+<g class="subgraph" data-id="STAGE5" data-label="Stage 5: Classifier Head &amp; Optimization">
+  <rect x="58.469125000000176" y="2339.587" width="753.7429999999997" height="770.795" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="58.469125000000176" y="2339.587" width="753.7429999999997" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="70.46912500000018" y="2353.587" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Stage 5: Classifier Head &amp; Optimization</text>
+</g>
+<polyline class="edge" data-from="A5" data-to="B1" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="462.77625,578.8 462.77625,698.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B5" data-to="C_SPLIT" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="462.77624999999995,1159.8 462.77624999999995,1279.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="ATT_FUSED" data-to="GAP" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="473.5207499999999,1971.087 473.5207499999999,2031.087 287.3631250000001,2031.087 287.3631250000001,2091.087" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="ATT_FUSED" data-to="GMP" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="473.5207499999999,1971.087 473.5207499999999,2031.087 585.911625,2031.087 585.911625,2091.087" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="POOL_CAT" data-to="DROP1" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="436.6373750000001,2263.587 436.6373750000001,2383.587" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="A1" data-to="A2" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="462.77625,137.8 462.77625,185.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="A2" data-to="A3" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="462.77625,239.60000000000002 462.77625,287.6" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="A3" data-to="A4" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="462.77625,341.40000000000003 462.77625,389.40000000000003" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="A4" data-to="A5" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="462.77625,460.1 462.77625,508.1" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B1" data-to="B2" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="462.77624999999995,752.5999999999999 462.77624999999995,800.5999999999999" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B2" data-to="B3" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="462.77624999999995,854.4 462.77624999999995,902.4" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B3" data-to="B4" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="462.77624999999995,956.2 462.77624999999995,1004.2" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="B4" data-to="B5" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="462.77624999999995,1058 462.77624999999995,1106" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C_SPLIT" data-to="C_AVG" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="462.77624999999995,1462.087 462.77624999999995,1486.087 168.15524999999994,1486.087 168.15524999999994,1510.087" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C_SPLIT" data-to="C_MAX" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="462.77624999999995,1462.087 462.77624999999995,1486.087 366.66874999999993,1486.087 366.66874999999993,1510.087" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C_AVG" data-to="C_FC" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="168.15524999999994,1563.887 168.15524999999994,1587.887 267.4119999999999,1587.887 267.4119999999999,1611.887" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C_MAX" data-to="C_FC" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="366.66874999999993,1563.887 366.66874999999993,1587.887 267.4119999999999,1587.887 267.4119999999999,1611.887" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C_FC" data-to="C_SIG" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="267.4119999999999,1665.687 267.4119999999999,1713.687" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C_SIG" data-to="C_MUL" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="267.4119999999999,1750.587 267.4119999999999,1798.587" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C_SPLIT" data-to="T_MEAN" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="462.77624999999995,1462.087 462.77624999999995,1486.087 558.88375,1486.087 558.88375,1510.087" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C_SPLIT" data-to="T_MAX" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="462.77624999999995,1462.087 462.77624999999995,1486.087 739.9837499999999,1486.087 739.9837499999999,1510.087" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="T_MEAN" data-to="T_CAT" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="558.88375,1563.887 558.88375,1587.887 649.4337499999998,1587.887 649.4337499999998,1611.887" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="T_MAX" data-to="T_CAT" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="739.9837499999999,1563.887 739.9837499999999,1587.887 649.4337499999998,1587.887 649.4337499999998,1611.887" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="T_CAT" data-to="T_CONV" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="649.4337499999999,1665.687 649.4337499999999,1713.687" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="T_CONV" data-to="T_MUL" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="649.4337499999999,1750.587 649.4337499999999,1798.587" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="C_MUL" data-to="ATT_FUSED" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="267.4119999999999,1869.287 267.4119999999999,1893.287 473.5207499999999,1893.287 473.5207499999999,1917.287" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="T_MUL" data-to="ATT_FUSED" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="649.4337499999999,1869.287 649.4337499999999,1893.287 473.5207499999999,1893.287 473.5207499999999,1917.287" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="GAP" data-to="POOL_CAT" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="287.3631250000001,2161.787 287.3631250000001,2185.787 436.637375,2185.787 436.637375,2209.787" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="GMP" data-to="POOL_CAT" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="585.911625,2161.787 585.911625,2185.787 436.637375,2185.787 436.637375,2209.787" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="DROP1" data-to="FC1" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="436.6373750000001,2420.487 436.6373750000001,2468.487" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="FC1" data-to="BN1" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="436.6373750000001,2505.387 436.6373750000001,2553.387" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="BN1" data-to="DROP2" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="436.6373750000001,2590.287 436.6373750000001,2638.2870000000003" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="DROP2" data-to="FC2" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="436.6373750000001,2675.187 436.6373750000001,2723.187" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="FC2" data-to="TRAIN_MODE" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="436.6373750000001,2760.087 436.6373750000001,2808.087" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="TRAIN_MODE" data-to="LOSS" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Training" points="420.08820833333345,2890.8328333333334 420.08820833333345,2919.382 249.20162500000015,2919.382 249.20162500000015,3023.682" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="TRAIN_MODE" data-to="INFER" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Inference" points="453.18654166666676,2890.8328333333334 453.18654166666676,2919.382 624.073125,2919.382 624.073125,3023.682" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="TRAIN_MODE" data-to="LOSS" data-label="Training">
+  <rect x="219.70162500000015" y="2950.382" width="58.04200000000001" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="248.72262500000016" y="2965.532" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Training</text>
+</g>
+<g class="edge-label" data-from="TRAIN_MODE" data-to="INFER" data-label="Inference">
+  <rect x="592.573125" y="2950.382" width="62.794" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="623.970125" y="2965.532" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Inference</text>
+</g>
+<g class="node" data-id="A1" data-label="Raw Audio Stream
+(Hugging Face Dataset)" data-shape="rectangle">
+  <rect x="373.62924999999996" y="84" width="178.29399999999998" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="462.77624999999995" y="110.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="462.77624999999995" dy="-3.9000000000000012">Raw Audio Stream</tspan><tspan x="462.77624999999995" dy="16.900000000000002">(Hugging Face Dataset)</tspan></text>
+</g>
+<g class="node" data-id="A2" data-label="32 kHz Resampler &amp; Standardizer
+(Fixed 5.0s / 160,000 samples)" data-shape="rectangle">
+  <rect x="343.24825" y="185.8" width="239.05599999999995" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="462.77624999999995" y="212.70000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="462.77624999999995" dy="-3.9000000000000012">32 kHz Resampler &amp; Standardizer</tspan><tspan x="462.77624999999995" dy="16.900000000000002">(Fixed 5.0s / 160,000 samples)</tspan></text>
+</g>
+<g class="node" data-id="A3" data-label="Peak Amplitude Normalization
+(Zero-centering &amp; Gain)" data-shape="rectangle">
+  <rect x="355.84524999999996" y="287.6" width="213.86199999999997" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="462.77624999999995" y="314.5" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="462.77624999999995" dy="-3.9000000000000012">Peak Amplitude Normalization</tspan><tspan x="462.77624999999995" dy="16.900000000000002">(Zero-centering &amp; Gain)</tspan></text>
+</g>
+<g class="node" data-id="A4" data-label="Log-Mel Spectrogram Generator
+(N_mels=128, N_fft=2048, Hop=512)
+Shape: (1, 128, 313)" data-shape="rectangle">
+  <rect x="343.24825" y="389.40000000000003" width="239.05599999999998" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="462.77625" y="424.75000000000006" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="462.77625" dy="-12.350000000000001">Log-Mel Spectrogram Generator</tspan><tspan x="462.77625" dy="16.900000000000002">(N_mels=128, N_fft=2048, Hop=512)</tspan><tspan x="462.77625" dy="16.900000000000002">Shape: (1, 128, 313)</tspan></text>
+</g>
+<g class="node" data-id="A5" data-label="Spectral Channel Expansion
+x.repeat(1, 3, 1, 1)
+Shape: (3, 128, 313)" data-shape="rectangle">
+  <rect x="358.06825" y="508.1" width="209.41599999999997" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="462.77624999999995" y="543.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="462.77624999999995" dy="-12.350000000000001">Spectral Channel Expansion</tspan><tspan x="462.77624999999995" dy="16.900000000000002">x.repeat(1, 3, 1, 1)</tspan><tspan x="462.77624999999995" dy="16.900000000000002">Shape: (3, 128, 313)</tspan></text>
+</g>
+<g class="node" data-id="B1" data-label="Stem Conv2d (3 &amp;rarr; 32)
+Stride 2, SiLU, BatchNorm" data-shape="rectangle">
+  <rect x="366.58975" y="698.8" width="192.373" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="462.77625" y="725.6999999999999" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="462.77625" dy="-3.9000000000000012">Stem Conv2d (3 &amp;rarr; 32)</tspan><tspan x="462.77625" dy="16.900000000000002">Stride 2, SiLU, BatchNorm</tspan></text>
+</g>
+<g class="node" data-id="B2" data-label="MBConv1 &amp; MBConv6 Stages (32 &amp;rarr; 112)
+Depthwise Separable Convolutions + SE" data-shape="rectangle">
+  <rect x="318.79524999999995" y="800.5999999999999" width="287.962" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="462.77624999999995" y="827.4999999999999" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="462.77624999999995" dy="-3.9000000000000012">MBConv1 &amp; MBConv6 Stages (32 &amp;rarr; 112)</tspan><tspan x="462.77624999999995" dy="16.900000000000002">Depthwise Separable Convolutions + SE</tspan></text>
+</g>
+<g class="node" data-id="B3" data-label="High-Level Harmonic Stages (112 &amp;rarr; 320)
+5x5 Receptive Fields" data-shape="rectangle">
+  <rect x="315.83124999999995" y="902.4" width="293.89" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="462.77624999999995" y="929.3" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="462.77624999999995" dy="-3.9000000000000012">High-Level Harmonic Stages (112 &amp;rarr; 320)</tspan><tspan x="462.77624999999995" dy="16.900000000000002">5x5 Receptive Fields</tspan></text>
+</g>
+<g class="node" data-id="B4" data-label="Top Convolution (320 &amp;rarr; 1280)
+1x1 Conv + BatchNorm + SiLU" data-shape="rectangle">
+  <rect x="345.47124999999994" y="1004.2" width="234.61" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="462.77624999999995" y="1031.1000000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="462.77624999999995" dy="-3.9000000000000012">Top Convolution (320 &amp;rarr; 1280)</tspan><tspan x="462.77624999999995" dy="16.900000000000002">1x1 Conv + BatchNorm + SiLU</tspan></text>
+</g>
+<g class="node" data-id="B5" data-label="Deep Multi-Scale Feature Map
+Tensor Shape: (B, 1280, 4, 10)" data-shape="rectangle">
+  <rect x="353.62224999999995" y="1106" width="218.308" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="462.77624999999995" y="1132.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="462.77624999999995" dy="-3.9000000000000012">Deep Multi-Scale Feature Map</tspan><tspan x="462.77624999999995" dy="16.900000000000002">Tensor Shape: (B, 1280, 4, 10)</tspan></text>
+</g>
+<g class="node" data-id="C_SPLIT" data-label="Feature Distribution" data-shape="diamond">
+  <polygon points="462.77624999999995,1279.8 553.9197499999999,1370.9434999999999 462.77624999999995,1462.0869999999998 371.63274999999993,1370.9434999999999" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="462.77624999999995" y="1370.9434999999999" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Feature Distribution</text>
+</g>
+<g class="node" data-id="C_AVG" data-label="AdaptiveAvgPool2d(1)
+(B, 1280, 1, 1)" data-shape="rectangle">
+  <rect x="83.45424999999994" y="1510.087" width="169.402" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="168.15524999999994" y="1536.987" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="168.15524999999994" dy="-3.9000000000000012">AdaptiveAvgPool2d(1)</tspan><tspan x="168.15524999999994" dy="16.900000000000002">(B, 1280, 1, 1)</tspan></text>
+</g>
+<g class="node" data-id="C_MAX" data-label="AdaptiveMaxPool2d(1)
+(B, 1280, 1, 1)" data-shape="rectangle">
+  <rect x="280.85624999999993" y="1510.087" width="171.62499999999997" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="366.66874999999993" y="1536.987" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="366.66874999999993" dy="-3.9000000000000012">AdaptiveMaxPool2d(1)</tspan><tspan x="366.66874999999993" dy="16.900000000000002">(B, 1280, 1, 1)</tspan></text>
+</g>
+<g class="node" data-id="C_FC" data-label="Shared Bottleneck MLP
+Conv2d(1280 &amp;rarr; 80) &amp;rarr; ReLU &amp;rarr; Conv2d(80 &amp;rarr; 1280)" data-shape="rectangle">
+  <rect x="56" y="1611.887" width="422.8239999999999" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="267.4119999999999" y="1638.787" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="267.4119999999999" dy="-3.9000000000000012">Shared Bottleneck MLP</tspan><tspan x="267.4119999999999" dy="16.900000000000002">Conv2d(1280 &amp;rarr; 80) &amp;rarr; ReLU &amp;rarr; Conv2d(80 &amp;rarr; 1280)</tspan></text>
+</g>
+<g class="node" data-id="C_SIG" data-label="Sigmoid Weighting (&amp;sigma;)" data-shape="rectangle">
+  <rect x="166.77949999999998" y="1713.687" width="201.26499999999993" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="267.4119999999999" y="1732.137" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Sigmoid Weighting (&amp;sigma;)</text>
+</g>
+<g class="node" data-id="C_MUL" data-label="Channel Attention Map (CAM)
+Emphasizes 1-10 kHz Bird Pitch
+Suppresses Low-Freq Wind &lt;500 Hz" data-shape="rectangle">
+  <rect x="138.25099999999998" y="1798.587" width="258.32199999999995" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="267.4119999999999" y="1833.937" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="267.4119999999999" dy="-12.350000000000001">Channel Attention Map (CAM)</tspan><tspan x="267.4119999999999" dy="16.900000000000002">Emphasizes 1-10 kHz Bird Pitch</tspan><tspan x="267.4119999999999" dy="16.900000000000002">Suppresses Low-Freq Wind &lt;500 Hz</tspan></text>
+</g>
+<g class="node" data-id="T_MEAN" data-label="Channel-wise Mean
+mean(x, dim=1)" data-shape="rectangle">
+  <rect x="480.48124999999993" y="1510.087" width="156.805" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="558.88375" y="1536.987" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="558.88375" dy="-3.9000000000000012">Channel-wise Mean</tspan><tspan x="558.88375" dy="16.900000000000002">mean(x, dim=1)</tspan></text>
+</g>
+<g class="node" data-id="T_MAX" data-label="Channel-wise Max
+max(x, dim=1)" data-shape="rectangle">
+  <rect x="665.2862499999999" y="1510.087" width="149.395" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="739.9837499999999" y="1536.987" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="739.9837499999999" dy="-3.9000000000000012">Channel-wise Max</tspan><tspan x="739.9837499999999" dy="16.900000000000002">max(x, dim=1)</tspan></text>
+</g>
+<g class="node" data-id="T_CAT" data-label="Concat along Channel
+Tensor Shape: (B, 2, 4, 10)" data-shape="rectangle">
+  <rect x="554.7292499999999" y="1611.887" width="189.40899999999996" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="649.4337499999998" y="1638.787" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="649.4337499999998" dy="-3.9000000000000012">Concat along Channel</tspan><tspan x="649.4337499999998" dy="16.900000000000002">Tensor Shape: (B, 2, 4, 10)</tspan></text>
+</g>
+<g class="node" data-id="T_CONV" data-label="7x7 Spatial-Temporal Conv + Sigmoid" data-shape="rectangle">
+  <rect x="520.64325" y="1713.687" width="257.5809999999999" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="649.4337499999999" y="1732.137" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">7x7 Spatial-Temporal Conv + Sigmoid</text>
+</g>
+<g class="node" data-id="T_MUL" data-label="Temporal-Spatial Attention (TSAM)
+Multiplies Silence Intervals by 0
+Amplifies Transient Chirp Bursts" data-shape="rectangle">
+  <rect x="528.4237499999999" y="1798.587" width="242.01999999999998" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="649.4337499999999" y="1833.937" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="649.4337499999999" dy="-12.350000000000001">Temporal-Spatial Attention (TSAM)</tspan><tspan x="649.4337499999999" dy="16.900000000000002">Multiplies Silence Intervals by 0</tspan><tspan x="649.4337499999999" dy="16.900000000000002">Amplifies Transient Chirp Bursts</tspan></text>
+</g>
+<g class="node" data-id="ATT_FUSED" data-label="Attention-Refined Spectral Feature Tensor
+Shape: (B, 1280, 4, 10)" data-shape="rectangle">
+  <rect x="328.79875" y="1917.287" width="289.4439999999999" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="473.5207499999999" y="1944.1870000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="473.5207499999999" dy="-3.9000000000000012">Attention-Refined Spectral Feature Tensor</tspan><tspan x="473.5207499999999" dy="16.900000000000002">Shape: (B, 1280, 4, 10)</tspan></text>
+</g>
+<g class="node" data-id="GAP" data-label="Global Average Pooling (GAP)
+Captures Sustained Melodic Song Context
+(B, 1280)" data-shape="rectangle">
+  <rect x="143.75262500000014" y="2091.087" width="287.22099999999995" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="287.3631250000001" y="2126.437" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="287.3631250000001" dy="-12.350000000000001">Global Average Pooling (GAP)</tspan><tspan x="287.3631250000001" dy="16.900000000000002">Captures Sustained Melodic Song Context</tspan><tspan x="287.3631250000001" dy="16.900000000000002">(B, 1280)</tspan></text>
+</g>
+<g class="node" data-id="GMP" data-label="Global Max Pooling (GMP)
+Captures Peak Burst Energy Chirps
+(B, 1280)" data-shape="rectangle">
+  <rect x="458.973625" y="2091.087" width="253.87599999999995" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="585.911625" y="2126.437" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="585.911625" dy="-12.350000000000001">Global Max Pooling (GMP)</tspan><tspan x="585.911625" dy="16.900000000000002">Captures Peak Burst Energy Chirps</tspan><tspan x="585.911625" dy="16.900000000000002">(B, 1280)</tspan></text>
+</g>
+<g class="node" data-id="POOL_CAT" data-label="Concatenation (GAP + GMP)
+Unified Bioacoustic Descriptor: (B, 2560)" data-shape="rectangle">
+  <rect x="298.5843750000001" y="2209.787" width="276.10599999999994" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="436.637375" y="2236.687" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="436.637375" dy="-3.9000000000000012">Concatenation (GAP + GMP)</tspan><tspan x="436.637375" dy="16.900000000000002">Unified Bioacoustic Descriptor: (B, 2560)</tspan></text>
+</g>
+<g class="node" data-id="DROP1" data-label="Dropout (p = 0.3)" data-shape="rectangle">
+  <rect x="368.60887500000007" y="2383.587" width="136.05700000000002" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="436.6373750000001" y="2402.037" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Dropout (p = 0.3)</text>
+</g>
+<g class="node" data-id="FC1" data-label="Linear Layer (2560 &amp;rarr; 512)" data-shape="rectangle">
+  <rect x="327.4833750000001" y="2468.487" width="218.308" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="436.6373750000001" y="2486.937" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Linear Layer (2560 &amp;rarr; 512)</text>
+</g>
+<g class="node" data-id="BN1" data-label="BatchNorm1d + SiLU Activation" data-shape="rectangle">
+  <rect x="327.11287500000014" y="2553.387" width="219.0489999999999" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="436.6373750000001" y="2571.837" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">BatchNorm1d + SiLU Activation</text>
+</g>
+<g class="node" data-id="DROP2" data-label="Dropout (p = 0.2)" data-shape="rectangle">
+  <rect x="368.60887500000007" y="2638.2870000000003" width="136.05700000000002" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="436.6373750000001" y="2656.737" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Dropout (p = 0.2)</text>
+</g>
+<g class="node" data-id="FC2" data-label="Output Linear Layer (512 &amp;rarr; 264 Species)" data-shape="rectangle">
+  <rect x="285.9873750000001" y="2723.187" width="301.29999999999995" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="436.6373750000001" y="2741.6369999999997" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Output Linear Layer (512 &amp;rarr; 264 Species)</text>
+</g>
+<g class="node" data-id="TRAIN_MODE" data-label="Mode" data-shape="diamond">
+  <polygon points="436.6373750000001,2808.087 486.28487500000006,2857.7345 436.6373750000001,2907.382 386.9898750000001,2857.7345" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="436.6373750000001" y="2857.7345" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Mode</text>
+</g>
+<g class="node" data-id="LOSS" data-label="Label-Smoothed Cross-Entropy Loss (&amp;epsilon; = 0.1)
+Diff AdamW: 1e-4 (Backbone) / 5e-4 (Head)
+AMP FP16 Tensor Cores" data-shape="rectangle">
+  <rect x="74.46912500000018" y="3023.682" width="349.4649999999999" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="249.20162500000015" y="3059.0319999999997" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="249.20162500000015" dy="-12.350000000000001">Label-Smoothed Cross-Entropy Loss (&amp;epsilon; = 0.1)</tspan><tspan x="249.20162500000015" dy="16.900000000000002">Diff AdamW: 1e-4 (Backbone) / 5e-4 (Head)</tspan><tspan x="249.20162500000015" dy="16.900000000000002">AMP FP16 Tensor Cores</tspan></text>
+</g>
+<g class="node" data-id="INFER" data-label="Softmax Normalization &amp;rarr; Top-k Ranking (k=3)
+Output: Common Name, Scientific Name, Confidence %" data-shape="rectangle">
+  <rect x="451.9341250000001" y="3023.682" width="344.2779999999998" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="624.073125" y="3050.582" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="624.073125" dy="-3.9000000000000012">Softmax Normalization &amp;rarr; Top-k Ranking (k=3)</tspan><tspan x="624.073125" dy="16.900000000000002">Output: Common Name, Scientific Name, Confidence %</tspan></text>
+</g>
+</svg>

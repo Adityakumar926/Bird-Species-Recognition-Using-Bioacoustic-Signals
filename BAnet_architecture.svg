@@ -1,0 +1,279 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1350" width="1000" height="1350" style="background:#0F172A; font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    
+    <linearGradient id="prepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+
+    <linearGradient id="backboneGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+
+    <linearGradient id="attentionGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9333EA"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+
+    <linearGradient id="poolingGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+
+    <linearGradient id="headGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+
+    <!-- Filters for Glow & Shadows -->
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+
+    <!-- Markers -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#38BDF8"/>
+    </marker>
+    <marker id="arrowPurple" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#C084FC"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="1350" fill="url(#bgGrad)"/>
+
+  <!-- Title Block -->
+  <g transform="translate(50, 30)">
+    <rect width="900" height="75" rx="12" fill="#1E293B" stroke="#334155" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <text x="450" y="32" text-anchor="middle" fill="#38BDF8" font-size="21" font-weight="700" letter-spacing="0.5">BioAcoustic Attention Network (BANet)</text>
+    <text x="450" y="56" text-anchor="middle" fill="#94A3B8" font-size="13" font-weight="500">Upgraded Pre-trained EfficientNet-B0 Backbone + Frequency/Temporal Attention + Dual Pooling Head</text>
+  </g>
+
+  <!-- STAGE 1: Audio Signal Preprocessing -->
+  <g transform="translate(50, 125)">
+    <rect width="900" height="145" rx="12" fill="url(#cardGrad)" stroke="#0284C7" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="900" height="32" rx="12" fill="url(#prepGrad)"/>
+    <text x="20" y="21" fill="#FFFFFF" font-size="14" font-weight="700">STAGE 1: BIOACOUSTIC AUDIO SIGNAL STANDARDIZATION &amp; LOG-MEL EXTRACTION</text>
+
+    <!-- Sub-steps in Stage 1 -->
+    <g transform="translate(25, 45)">
+      <!-- Audio Ingestion -->
+      <rect x="0" y="0" width="180" height="78" rx="8" fill="#0F172A" stroke="#38BDF8" stroke-width="1"/>
+      <text x="90" y="24" text-anchor="middle" fill="#38BDF8" font-size="12" font-weight="700">Raw Audio Byte Stream</text>
+      <text x="90" y="44" text-anchor="middle" fill="#94A3B8" font-size="11">HuggingFace Dataset</text>
+      <text x="90" y="62" text-anchor="middle" fill="#64748B" font-size="10">264 Bird Species</text>
+
+      <line x1="180" y1="39" x2="220" y2="39" stroke="#38BDF8" stroke-width="2" marker-end="url(#arrow)"/>
+
+      <!-- Standardization -->
+      <rect x="220" y="0" width="190" height="78" rx="8" fill="#0F172A" stroke="#38BDF8" stroke-width="1"/>
+      <text x="315" y="24" text-anchor="middle" fill="#38BDF8" font-size="12" font-weight="700">Audio Preprocessor</text>
+      <text x="315" y="44" text-anchor="middle" fill="#F1F5F9" font-size="11">32 kHz Standard Resampling</text>
+      <text x="315" y="62" text-anchor="middle" fill="#94A3B8" font-size="10">5.0s Window (160k samples)</text>
+
+      <line x1="410" y1="39" x2="450" y2="39" stroke="#38BDF8" stroke-width="2" marker-end="url(#arrow)"/>
+
+      <!-- Mel Spectrogram -->
+      <rect x="450" y="0" width="200" height="78" rx="8" fill="#0F172A" stroke="#38BDF8" stroke-width="1"/>
+      <text x="550" y="24" text-anchor="middle" fill="#38BDF8" font-size="12" font-weight="700">Log-Mel Spectrogram</text>
+      <text x="550" y="44" text-anchor="middle" fill="#F1F5F9" font-size="11">N_mels=128 | N_fft=2048</text>
+      <text x="550" y="62" text-anchor="middle" fill="#94A3B8" font-size="10">Hop Length=512 | Peak Norm</text>
+
+      <line x1="650" y1="39" x2="690" y2="39" stroke="#38BDF8" stroke-width="2" marker-end="url(#arrow)"/>
+
+      <!-- Channel Repeat -->
+      <rect x="690" y="0" width="160" height="78" rx="8" fill="#0F172A" stroke="#F59E0B" stroke-width="1.5"/>
+      <text x="770" y="24" text-anchor="middle" fill="#F59E0B" font-size="12" font-weight="700">3-Channel Expansion</text>
+      <text x="770" y="44" text-anchor="middle" fill="#F1F5F9" font-size="11">(1, 128, 313) -&gt; (3, 128, 313)</text>
+      <text x="770" y="62" text-anchor="middle" fill="#94A3B8" font-size="10">ImageNet RGB Match</text>
+    </g>
+  </g>
+
+  <!-- Arrow down from Stage 1 to Stage 2 -->
+  <line x1="500" y1="270" x2="500" y2="300" stroke="#38BDF8" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- STAGE 2: Pre-trained Backbone -->
+  <g transform="translate(50, 300)">
+    <rect width="900" height="200" rx="12" fill="url(#cardGrad)" stroke="#4F46E5" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="900" height="32" rx="12" fill="url(#backboneGrad)"/>
+    <text x="20" y="21" fill="#FFFFFF" font-size="14" font-weight="700">STAGE 2: PRE-TRAINED EFFICIENTNET-B0 FEATURE EXTRACTOR (TRANSFER LEARNING)</text>
+
+    <g transform="translate(25, 45)">
+      <!-- Stage 2 blocks -->
+      <rect x="0" y="0" width="180" height="135" rx="8" fill="#0F172A" stroke="#818CF8" stroke-width="1"/>
+      <text x="90" y="24" text-anchor="middle" fill="#818CF8" font-size="12" font-weight="700">Stem Convolution</text>
+      <text x="90" y="44" text-anchor="middle" fill="#F1F5F9" font-size="11">Conv2d (3 -&gt; 32)</text>
+      <text x="90" y="62" text-anchor="middle" fill="#94A3B8" font-size="10">Stride 2 | SiLU | BN</text>
+      <text x="90" y="90" text-anchor="middle" fill="#64748B" font-size="10">Output Shape:</text>
+      <text x="90" y="110" text-anchor="middle" fill="#38BDF8" font-size="11" font-weight="600">(32, 64, 157)</text>
+
+      <line x1="180" y1="67" x2="220" y2="67" stroke="#818CF8" stroke-width="2" marker-end="url(#arrow)"/>
+
+      <rect x="220" y="0" width="200" height="135" rx="8" fill="#0F172A" stroke="#818CF8" stroke-width="1"/>
+      <text x="320" y="24" text-anchor="middle" fill="#818CF8" font-size="12" font-weight="700">MBConv Stages 1 - 4</text>
+      <text x="320" y="44" text-anchor="middle" fill="#F1F5F9" font-size="11">Depthwise Separable Conv</text>
+      <text x="320" y="62" text-anchor="middle" fill="#94A3B8" font-size="10">SE Attention | Residual Skip</text>
+      <text x="320" y="90" text-anchor="middle" fill="#64748B" font-size="10">Mid-level Representation:</text>
+      <text x="320" y="110" text-anchor="middle" fill="#38BDF8" font-size="11" font-weight="600">(112, 16, 40)</text>
+
+      <line x1="420" y1="67" x2="460" y2="67" stroke="#818CF8" stroke-width="2" marker-end="url(#arrow)"/>
+
+      <rect x="460" y="0" width="200" height="135" rx="8" fill="#0F172A" stroke="#818CF8" stroke-width="1"/>
+      <text x="560" y="24" text-anchor="middle" fill="#818CF8" font-size="12" font-weight="700">MBConv Stages 5 - 7</text>
+      <text x="560" y="44" text-anchor="middle" fill="#F1F5F9" font-size="11">High-Level Harmonic Blocks</text>
+      <text x="560" y="62" text-anchor="middle" fill="#94A3B8" font-size="10">5x5 Large Kernel Filters</text>
+      <text x="560" y="90" text-anchor="middle" fill="#64748B" font-size="10">Deep Feature Output:</text>
+      <text x="560" y="110" text-anchor="middle" fill="#38BDF8" font-size="11" font-weight="600">(320, 4, 10)</text>
+
+      <line x1="660" y1="67" x2="700" y2="67" stroke="#818CF8" stroke-width="2" marker-end="url(#arrow)"/>
+
+      <rect x="700" y="0" width="150" height="135" rx="8" fill="#0F172A" stroke="#A855F7" stroke-width="1.5"/>
+      <text x="775" y="24" text-anchor="middle" fill="#A855F7" font-size="12" font-weight="700">Top Conv Layer</text>
+      <text x="775" y="44" text-anchor="middle" fill="#F1F5F9" font-size="11">1x1 Conv (320 -&gt; 1280)</text>
+      <text x="775" y="62" text-anchor="middle" fill="#94A3B8" font-size="10">BatchNorm + SiLU</text>
+      <text x="775" y="90" text-anchor="middle" fill="#64748B" font-size="10">Final Tensor:</text>
+      <text x="775" y="110" text-anchor="middle" fill="#34D399" font-size="12" font-weight="700">(1280, 4, 10)</text>
+    </g>
+  </g>
+
+  <!-- Arrow down from Stage 2 to Stage 3 -->
+  <line x1="500" y1="500" x2="500" y2="530" stroke="#C084FC" stroke-width="2.5" marker-end="url(#arrowPurple)"/>
+
+  <!-- STAGE 3: BioAcoustic Attention Module -->
+  <g transform="translate(50, 530)">
+    <rect width="900" height="280" rx="12" fill="url(#cardGrad)" stroke="#9333EA" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="900" height="32" rx="12" fill="url(#attentionGrad)"/>
+    <text x="20" y="21" fill="#FFFFFF" font-size="14" font-weight="700">STAGE 3: CUSTOM BIOACOUSTIC DUAL ATTENTION MECHANISM</text>
+
+    <!-- Branch A: Channel Attention -->
+    <g transform="translate(25, 45)">
+      <rect width="415" height="215" rx="8" fill="#0F172A" stroke="#A855F7" stroke-width="1"/>
+      <rect x="0" y="0" width="415" height="26" rx="8" fill="#581C87"/>
+      <text x="207" y="18" text-anchor="middle" fill="#E9D5FF" font-size="12" font-weight="700">BRANCH A: Channel Attention Module (CAM)</text>
+
+      <text x="20" y="52" fill="#F1F5F9" font-size="11" font-weight="600">Dynamic Frequency Band Recalibration</text>
+      <text x="20" y="70" fill="#94A3B8" font-size="10">- AdaptiveAvgPool2d(1) + AdaptiveMaxPool2d(1)</text>
+      <text x="20" y="88" fill="#94A3B8" font-size="10">- Shared Bottleneck: Conv2d(1280 -&gt; 80, 1x1) -&gt; ReLU</text>
+      <text x="20" y="106" fill="#94A3B8" font-size="10">- Expansion: Conv2d(80 -&gt; 1280, 1x1) -&gt; Sigmoid Weighting</text>
+
+      <rect x="20" y="125" width="375" height="70" rx="6" fill="#1E1B4B" stroke="#818CF8" stroke-width="1"/>
+      <text x="35" y="148" fill="#38BDF8" font-size="11" font-weight="700">Biological Purpose:</text>
+      <text x="35" y="166" fill="#E2E8F0" font-size="10.5">Amplifies specific bird pitch bands (1 kHz - 10 kHz)</text>
+      <text x="35" y="184" fill="#94A3B8" font-size="10">Suppresses low-frequency wind and environmental rumble</text>
+    </g>
+
+    <!-- Branch B: Temporal-Spatial Attention -->
+    <g transform="translate(460, 45)">
+      <rect width="415" height="215" rx="8" fill="#0F172A" stroke="#A855F7" stroke-width="1"/>
+      <rect x="0" y="0" width="415" height="26" rx="8" fill="#581C87"/>
+      <text x="207" y="18" text-anchor="middle" fill="#E9D5FF" font-size="12" font-weight="700">BRANCH B: Temporal-Spatial Attention Module (TSAM)</text>
+
+      <text x="20" y="52" fill="#F1F5F9" font-size="11" font-weight="600">Temporal Vocalization Chirp Localization</text>
+      <text x="20" y="70" fill="#94A3B8" font-size="10">- Channel-wise Mean Map: mean(x, dim=1)</text>
+      <text x="20" y="88" fill="#94A3B8" font-size="10">- Channel-wise Peak Map: max(x, dim=1)</text>
+      <text x="20" y="106" fill="#94A3B8" font-size="10">- 7x7 Large Spatial Kernel Conv2d(2 -&gt; 1) -&gt; Sigmoid</text>
+
+      <rect x="20" y="125" width="375" height="70" rx="6" fill="#1E1B4B" stroke="#818CF8" stroke-width="1"/>
+      <text x="35" y="148" fill="#C084FC" font-size="11" font-weight="700">Biological Purpose:</text>
+      <text x="35" y="166" fill="#E2E8F0" font-size="10.5">Weights salient chirp bursts over ambient silence</text>
+      <text x="35" y="184" fill="#94A3B8" font-size="10">Multiplies silence intervals by near-zero scaling</text>
+    </g>
+  </g>
+
+  <!-- Arrow down from Stage 3 to Stage 4 -->
+  <line x1="500" y1="810" x2="500" y2="840" stroke="#F59E0B" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- STAGE 4: Dual Pooling Head -->
+  <g transform="translate(50, 840)">
+    <rect width="900" height="150" rx="12" fill="url(#cardGrad)" stroke="#D97706" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="900" height="32" rx="12" fill="url(#poolingGrad)"/>
+    <text x="20" y="21" fill="#FFFFFF" font-size="14" font-weight="700">STAGE 4: DUAL POOLING FUSION (GAP + GMP)</text>
+
+    <g transform="translate(25, 45)">
+      <!-- Global Avg Pool -->
+      <rect x="0" y="0" width="260" height="85" rx="8" fill="#0F172A" stroke="#FBBF24" stroke-width="1"/>
+      <text x="130" y="26" text-anchor="middle" fill="#FBBF24" font-size="12" font-weight="700">Global Average Pooling (GAP)</text>
+      <text x="130" y="48" text-anchor="middle" fill="#F1F5F9" font-size="11">AdaptiveAvgPool2d(1)</text>
+      <text x="130" y="68" text-anchor="middle" fill="#94A3B8" font-size="10">Captures Sustained Song &amp; Melodies (1280-dim)</text>
+
+      <text x="285" y="47" text-anchor="middle" fill="#F59E0B" font-size="22" font-weight="700">+</text>
+
+      <!-- Global Max Pool -->
+      <rect x="310" y="0" width="260" height="85" rx="8" fill="#0F172A" stroke="#FBBF24" stroke-width="1"/>
+      <text x="440" y="26" text-anchor="middle" fill="#FBBF24" font-size="12" font-weight="700">Global Max Pooling (GMP)</text>
+      <text x="440" y="48" text-anchor="middle" fill="#F1F5F9" font-size="11">AdaptiveMaxPool2d(1)</text>
+      <text x="440" y="68" text-anchor="middle" fill="#94A3B8" font-size="10">Captures Transient Peak Bursts (1280-dim)</text>
+
+      <line x1="570" y1="42" x2="610" y2="42" stroke="#F59E0B" stroke-width="2" marker-end="url(#arrow)"/>
+
+      <!-- Fused Descriptor -->
+      <rect x="610" y="0" width="240" height="85" rx="8" fill="#0F172A" stroke="#34D399" stroke-width="1.5"/>
+      <text x="730" y="26" text-anchor="middle" fill="#34D399" font-size="12" font-weight="700">Fused Feature Vector</text>
+      <text x="730" y="48" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="700">concat([GAP, GMP])</text>
+      <text x="730" y="68" text-anchor="middle" fill="#38BDF8" font-size="11" font-weight="600">Total Dims: 2,560 features</text>
+    </g>
+  </g>
+
+  <!-- Arrow down from Stage 4 to Stage 5 -->
+  <line x1="500" y1="990" x2="500" y2="1020" stroke="#10B981" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- STAGE 5: Multi-Class Classification & Regularization -->
+  <g transform="translate(50, 1020)">
+    <rect width="900" height="260" rx="12" fill="url(#cardGrad)" stroke="#059669" stroke-width="1.5" filter="url(#cardShadow)"/>
+    <rect x="0" y="0" width="900" height="32" rx="12" fill="url(#headGrad)"/>
+    <text x="20" y="21" fill="#FFFFFF" font-size="14" font-weight="700">STAGE 5: MULTI-CLASS CLASSIFIER HEAD &amp; OPTIMIZATION</text>
+
+    <g transform="translate(25, 45)">
+      <!-- Dense Projection -->
+      <rect x="0" y="0" width="260" height="190" rx="8" fill="#0F172A" stroke="#34D399" stroke-width="1"/>
+      <text x="130" y="26" text-anchor="middle" fill="#34D399" font-size="12" font-weight="700">Classifier Architecture</text>
+      <text x="20" y="55" fill="#94A3B8" font-size="11">1. Dropout (p = 0.3)</text>
+      <text x="20" y="78" fill="#F1F5F9" font-size="11">2. Linear (2560 -&gt; 512)</text>
+      <text x="20" y="101" fill="#94A3B8" font-size="11">3. BatchNorm1d (512)</text>
+      <text x="20" y="124" fill="#94A3B8" font-size="11">4. SiLU Activation</text>
+      <text x="20" y="147" fill="#94A3B8" font-size="11">5. Dropout (p = 0.2)</text>
+      <text x="20" y="170" fill="#38BDF8" font-size="11" font-weight="600">6. Linear (512 -&gt; 264 classes)</text>
+
+      <line x1="260" y1="95" x2="300" y2="95" stroke="#34D399" stroke-width="2" marker-end="url(#arrow)"/>
+
+      <!-- Optimization Strategy -->
+      <rect x="300" y="0" width="280" height="190" rx="8" fill="#0F172A" stroke="#34D399" stroke-width="1"/>
+      <text x="440" y="26" text-anchor="middle" fill="#34D399" font-size="12" font-weight="700">Training Optimization</text>
+      
+      <rect x="315" y="42" width="250" height="60" rx="6" fill="#064E3B" stroke="#059669" stroke-width="1"/>
+      <text x="325" y="60" fill="#A7F3D0" font-size="11" font-weight="700">Label-Smoothed Loss (0.1):</text>
+      <text x="325" y="78" fill="#ECFDF5" font-size="10">Stabilizes noisy multi-species gradients</text>
+      <text x="325" y="94" fill="#6EE7B7" font-size="10">Target: 0.9004 | Non-targets: 0.0004</text>
+
+      <rect x="315" y="112" width="250" height="66" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1"/>
+      <text x="325" y="130" fill="#FBBF24" font-size="11" font-weight="700">Differential Learning Rates:</text>
+      <text x="325" y="148" fill="#F1F5F9" font-size="10">Backbone: 1e-4 (fine-tuning)</text>
+      <text x="325" y="166" fill="#38BDF8" font-size="10">Attention + Head: 5e-4 (rapid learning)</text>
+
+      <line x1="580" y1="95" x2="620" y2="95" stroke="#34D399" stroke-width="2" marker-end="url(#arrow)"/>
+
+      <!-- Inference Output -->
+      <rect x="620" y="0" width="230" height="190" rx="8" fill="#0F172A" stroke="#38BDF8" stroke-width="1.5"/>
+      <text x="735" y="26" text-anchor="middle" fill="#38BDF8" font-size="12" font-weight="700">Real-Time Prediction</text>
+      <text x="635" y="55" fill="#94A3B8" font-size="11">Softmax Normalization</text>
+      <text x="635" y="78" fill="#F1F5F9" font-size="11" font-weight="600">Top-k Species Ranking (k=3)</text>
+      
+      <rect x="635" y="95" width="200" height="80" rx="6" fill="#1E293B" stroke="#0284C7" stroke-width="1"/>
+      <text x="645" y="115" fill="#38BDF8" font-size="10" font-weight="700">Output Sample:</text>
+      <text x="645" y="132" fill="#FFFFFF" font-size="10">1. Common Name</text>
+      <text x="645" y="149" fill="#94A3B8" font-size="10">2. Scientific Name</text>
+      <text x="645" y="166" fill="#34D399" font-size="10" font-weight="600">3. Confidence Percentage (%)</text>
+    </g>
+  </g>
+</svg>

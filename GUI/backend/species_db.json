@@ -1,0 +1,2378 @@
+{
+  "0": {
+    "id": 0,
+    "primary_label": "0",
+    "common_name": "Yellow-throated Greenbul",
+    "scientific_name": "Atimastillas flavicollis",
+    "latitude": 3.7504,
+    "longitude": 12.7741,
+    "sample_count": 27
+  },
+  "1": {
+    "id": 1,
+    "primary_label": "1",
+    "common_name": "Mocking Cliff-Chat",
+    "scientific_name": "Thamnolaea cinnamomeiventris",
+    "latitude": -29.475,
+    "longitude": 29.5638,
+    "sample_count": 36
+  },
+  "2": {
+    "id": 2,
+    "primary_label": "2",
+    "common_name": "Ross's Turaco",
+    "scientific_name": "Musophaga rossae",
+    "latitude": -0.638,
+    "longitude": 30.975,
+    "sample_count": 10
+  },
+  "3": {
+    "id": 3,
+    "primary_label": "3",
+    "common_name": "Waller's Starling",
+    "scientific_name": "Onychognathus walleri",
+    "latitude": -7.3338,
+    "longitude": 36.1433,
+    "sample_count": 34
+  },
+  "4": {
+    "id": 4,
+    "primary_label": "4",
+    "common_name": "Rattling Cisticola",
+    "scientific_name": "Cisticola chiniana",
+    "latitude": -3.3975,
+    "longitude": 34.7984,
+    "sample_count": 172
+  },
+  "5": {
+    "id": 5,
+    "primary_label": "5",
+    "common_name": "Northern Fiscal",
+    "scientific_name": "Lanius humeralis",
+    "latitude": -2.9858,
+    "longitude": 36.6355,
+    "sample_count": 20
+  },
+  "6": {
+    "id": 6,
+    "primary_label": "6",
+    "common_name": "Mackinnon's Shrike",
+    "scientific_name": "Lanius mackinnoni",
+    "latitude": 6.2364,
+    "longitude": 9.8358,
+    "sample_count": 6
+  },
+  "7": {
+    "id": 7,
+    "primary_label": "7",
+    "common_name": "Kikuyu White-eye",
+    "scientific_name": "Zosterops kikuyuensis",
+    "latitude": -0.7672,
+    "longitude": 36.6521,
+    "sample_count": 8
+  },
+  "8": {
+    "id": 8,
+    "primary_label": "8",
+    "common_name": "Crested Francolin",
+    "scientific_name": "Ortygornis sephaena",
+    "latitude": -0.5283,
+    "longitude": 31.0002,
+    "sample_count": 1
+  },
+  "9": {
+    "id": 9,
+    "primary_label": "9",
+    "common_name": "Parrot-billed Sparrow",
+    "scientific_name": "Passer gongonensis",
+    "latitude": -2.9965,
+    "longitude": 37.6244,
+    "sample_count": 7
+  },
+  "10": {
+    "id": 10,
+    "primary_label": "10",
+    "common_name": "Slender-tailed Nightjar",
+    "scientific_name": "Caprimulgus clarus",
+    "latitude": -2.9858,
+    "longitude": 37.5975,
+    "sample_count": 33
+  },
+  "11": {
+    "id": 11,
+    "primary_label": "11",
+    "common_name": "Cabanis's Greenbul",
+    "scientific_name": "Phyllastrephus cabanisi",
+    "latitude": -1.2396,
+    "longitude": 36.0267,
+    "sample_count": 34
+  },
+  "12": {
+    "id": 12,
+    "primary_label": "12",
+    "common_name": "Equatorial Akalat",
+    "scientific_name": "Sheppardia aequatorialis",
+    "latitude": -1.0147,
+    "longitude": 29.7783,
+    "sample_count": 7
+  },
+  "13": {
+    "id": 13,
+    "primary_label": "13",
+    "common_name": "Southern Black-Flycatcher",
+    "scientific_name": "Melaenornis pammelaina",
+    "latitude": -26.072,
+    "longitude": 27.449,
+    "sample_count": 21
+  },
+  "14": {
+    "id": 14,
+    "primary_label": "14",
+    "common_name": "Ring-necked Dove",
+    "scientific_name": "Streptopelia capicola",
+    "latitude": -21.9509,
+    "longitude": 27.2737,
+    "sample_count": 116
+  },
+  "15": {
+    "id": 15,
+    "primary_label": "15",
+    "common_name": "Willow Warbler",
+    "scientific_name": "Phylloscopus trochilus",
+    "latitude": 52.1333,
+    "longitude": 10.3699,
+    "sample_count": 500
+  },
+  "16": {
+    "id": 16,
+    "primary_label": "16",
+    "common_name": "Brown Woodland-Warbler",
+    "scientific_name": "Phylloscopus umbrovirens",
+    "latitude": 7.0318,
+    "longitude": 37.8899,
+    "sample_count": 40
+  },
+  "17": {
+    "id": 17,
+    "primary_label": "17",
+    "common_name": "Gray-backed Camaroptera",
+    "scientific_name": "Camaroptera brevicaudata",
+    "latitude": -0.5296,
+    "longitude": 30.5691,
+    "sample_count": 239
+  },
+  "18": {
+    "id": 18,
+    "primary_label": "18",
+    "common_name": "Cape Robin-Chat",
+    "scientific_name": "Cossypha caffra",
+    "latitude": -29.153,
+    "longitude": 26.511,
+    "sample_count": 153
+  },
+  "19": {
+    "id": 19,
+    "primary_label": "19",
+    "common_name": "African Bare-eyed Thrush",
+    "scientific_name": "Turdus tephronotus",
+    "latitude": -2.9524,
+    "longitude": 38.2854,
+    "sample_count": 15
+  },
+  "20": {
+    "id": 20,
+    "primary_label": "20",
+    "common_name": "Yellow-rumped Tinkerbird",
+    "scientific_name": "Pogoniulus bilineatus",
+    "latitude": -5.9994,
+    "longitude": 36.676,
+    "sample_count": 134
+  },
+  "21": {
+    "id": 21,
+    "primary_label": "21",
+    "common_name": "Spectacled Weaver",
+    "scientific_name": "Ploceus ocularis",
+    "latitude": -3.9923,
+    "longitude": 31.719,
+    "sample_count": 32
+  },
+  "22": {
+    "id": 22,
+    "primary_label": "22",
+    "common_name": "Variable Sunbird",
+    "scientific_name": "Cinnyris venustus",
+    "latitude": -2.9858,
+    "longitude": 36.5722,
+    "sample_count": 105
+  },
+  "23": {
+    "id": 23,
+    "primary_label": "23",
+    "common_name": "Yellow-billed Duck",
+    "scientific_name": "Anas undulata",
+    "latitude": -26.7486,
+    "longitude": 26.8969,
+    "sample_count": 17
+  },
+  "24": {
+    "id": 24,
+    "primary_label": "24",
+    "common_name": "European Bee-eater",
+    "scientific_name": "Merops apiaster",
+    "latitude": 42.3534,
+    "longitude": 5.2922,
+    "sample_count": 437
+  },
+  "25": {
+    "id": 25,
+    "primary_label": "25",
+    "common_name": "Hadada Ibis",
+    "scientific_name": "Bostrychia hagedash",
+    "latitude": -2.9858,
+    "longitude": 26.6042,
+    "sample_count": 129
+  },
+  "26": {
+    "id": 26,
+    "primary_label": "26",
+    "common_name": "Brown-chested Alethe",
+    "scientific_name": "Chamaetylas poliocephala",
+    "latitude": -0.2649,
+    "longitude": 34.8767,
+    "sample_count": 10
+  },
+  "27": {
+    "id": 27,
+    "primary_label": "27",
+    "common_name": "Little Weaver",
+    "scientific_name": "Ploceus luteolus",
+    "latitude": 8.3461,
+    "longitude": 29.7477,
+    "sample_count": 18
+  },
+  "28": {
+    "id": 28,
+    "primary_label": "28",
+    "common_name": "Singing Cisticola",
+    "scientific_name": "Cisticola cantans",
+    "latitude": 0.6987,
+    "longitude": 34.8747,
+    "sample_count": 68
+  },
+  "29": {
+    "id": 29,
+    "primary_label": "29",
+    "common_name": "White-browed Crombec",
+    "scientific_name": "Sylvietta leucophrys",
+    "latitude": -0.9746,
+    "longitude": 29.7865,
+    "sample_count": 7
+  },
+  "30": {
+    "id": 30,
+    "primary_label": "30",
+    "common_name": "Thrush Nightingale",
+    "scientific_name": "Luscinia luscinia",
+    "latitude": 56.051,
+    "longitude": 23.4639,
+    "sample_count": 500
+  },
+  "31": {
+    "id": 31,
+    "primary_label": "31",
+    "common_name": "Buff-bellied Warbler",
+    "scientific_name": "Phyllolais pulchella",
+    "latitude": -0.66,
+    "longitude": 36.2639,
+    "sample_count": 9
+  },
+  "32": {
+    "id": 32,
+    "primary_label": "32",
+    "common_name": "Eastern Violet-backed Sunbird",
+    "scientific_name": "Anthreptes orientalis",
+    "latitude": -1.5765,
+    "longitude": 37.6244,
+    "sample_count": 9
+  },
+  "33": {
+    "id": 33,
+    "primary_label": "33",
+    "common_name": "Black-backed Puffback",
+    "scientific_name": "Dryoscopus cubla",
+    "latitude": -11.1065,
+    "longitude": 33.2656,
+    "sample_count": 166
+  },
+  "34": {
+    "id": 34,
+    "primary_label": "34",
+    "common_name": "Black Kite",
+    "scientific_name": "Milvus migrans",
+    "latitude": 42.1539,
+    "longitude": 10.9764,
+    "sample_count": 262
+  },
+  "35": {
+    "id": 35,
+    "primary_label": "35",
+    "common_name": "Collared Sunbird",
+    "scientific_name": "Hedydipna collaris",
+    "latitude": -8.4935,
+    "longitude": 35.9031,
+    "sample_count": 181
+  },
+  "36": {
+    "id": 36,
+    "primary_label": "36",
+    "common_name": "Black-throated Apalis",
+    "scientific_name": "Apalis jacksoni",
+    "latitude": -1.0173,
+    "longitude": 29.7865,
+    "sample_count": 11
+  },
+  "37": {
+    "id": 37,
+    "primary_label": "37",
+    "common_name": "Gray-capped Warbler",
+    "scientific_name": "Eminia lepida",
+    "latitude": -1.142,
+    "longitude": 32.35,
+    "sample_count": 51
+  },
+  "38": {
+    "id": 38,
+    "primary_label": "38",
+    "common_name": "Joyful Greenbul",
+    "scientific_name": "Chlorocichla laetissima",
+    "latitude": 0.226,
+    "longitude": 34.8846,
+    "sample_count": 7
+  },
+  "39": {
+    "id": 39,
+    "primary_label": "39",
+    "common_name": "Great Egret",
+    "scientific_name": "Ardea alba",
+    "latitude": 28.2267,
+    "longitude": -0.4584,
+    "sample_count": 252
+  },
+  "40": {
+    "id": 40,
+    "primary_label": "40",
+    "common_name": "Violet-backed Starling",
+    "scientific_name": "Cinnyricinclus leucogaster",
+    "latitude": -1.2231,
+    "longitude": 30.9842,
+    "sample_count": 19
+  },
+  "41": {
+    "id": 41,
+    "primary_label": "41",
+    "common_name": "White-throated Bee-eater",
+    "scientific_name": "Merops albicollis",
+    "latitude": 8.3088,
+    "longitude": 39.9054,
+    "sample_count": 28
+  },
+  "42": {
+    "id": 42,
+    "primary_label": "42",
+    "common_name": "African Goshawk",
+    "scientific_name": "Accipiter tachiro",
+    "latitude": -7.8334,
+    "longitude": 36.3834,
+    "sample_count": 57
+  },
+  "43": {
+    "id": 43,
+    "primary_label": "43",
+    "common_name": "Red-billed Firefinch",
+    "scientific_name": "Lagonosticta senegala",
+    "latitude": -2.7226,
+    "longitude": 26.4579,
+    "sample_count": 47
+  },
+  "44": {
+    "id": 44,
+    "primary_label": "44",
+    "common_name": "Yellow-bellied Greenbul",
+    "scientific_name": "Chlorocichla flaviventris",
+    "latitude": -20.7465,
+    "longitude": 31.3743,
+    "sample_count": 22
+  },
+  "45": {
+    "id": 45,
+    "primary_label": "45",
+    "common_name": "Common Sandpiper",
+    "scientific_name": "Actitis hypoleucos",
+    "latitude": 50.7193,
+    "longitude": 3.2228,
+    "sample_count": 500
+  },
+  "46": {
+    "id": 46,
+    "primary_label": "46",
+    "common_name": "Pygmy Batis",
+    "scientific_name": "Batis perkeo",
+    "latitude": -1.1903,
+    "longitude": 37.4239,
+    "sample_count": 14
+  },
+  "47": {
+    "id": 47,
+    "primary_label": "47",
+    "common_name": "Meyer's Parrot",
+    "scientific_name": "Poicephalus meyeri",
+    "latitude": -7.5253,
+    "longitude": 30.9934,
+    "sample_count": 32
+  },
+  "48": {
+    "id": 48,
+    "primary_label": "48",
+    "common_name": "Yellow Bishop",
+    "scientific_name": "Euplectes capensis",
+    "latitude": -3.378,
+    "longitude": 28.4789,
+    "sample_count": 19
+  },
+  "49": {
+    "id": 49,
+    "primary_label": "49",
+    "common_name": "Northern Brownbul",
+    "scientific_name": "Phyllastrephus strepitans",
+    "latitude": -2.0065,
+    "longitude": 37.6244,
+    "sample_count": 20
+  },
+  "50": {
+    "id": 50,
+    "primary_label": "50",
+    "common_name": "Northern Double-collared Sunbird",
+    "scientific_name": "Cinnyris reichenowi",
+    "latitude": -0.636,
+    "longitude": 34.117,
+    "sample_count": 24
+  },
+  "51": {
+    "id": 51,
+    "primary_label": "51",
+    "common_name": "Gray-backed Fiscal",
+    "scientific_name": "Lanius excubitoroides",
+    "latitude": 0.1693,
+    "longitude": 35.0601,
+    "sample_count": 10
+  },
+  "52": {
+    "id": 52,
+    "primary_label": "52",
+    "common_name": "Red-fronted Tinkerbird",
+    "scientific_name": "Pogoniulus pusillus",
+    "latitude": -2.9965,
+    "longitude": 36.4453,
+    "sample_count": 59
+  },
+  "53": {
+    "id": 53,
+    "primary_label": "53",
+    "common_name": "Brown Babbler",
+    "scientific_name": "Turdoides plebejus",
+    "latitude": 12.0604,
+    "longitude": -1.77,
+    "sample_count": 22
+  },
+  "54": {
+    "id": 54,
+    "primary_label": "54",
+    "common_name": "Red-fronted Prinia",
+    "scientific_name": "Prinia rufifrons",
+    "latitude": 4.3906,
+    "longitude": 38.2788,
+    "sample_count": 9
+  },
+  "55": {
+    "id": 55,
+    "primary_label": "55",
+    "common_name": "Northern Crombec",
+    "scientific_name": "Sylvietta brachyura",
+    "latitude": 11.8097,
+    "longitude": -5.326,
+    "sample_count": 21
+  },
+  "56": {
+    "id": 56,
+    "primary_label": "56",
+    "common_name": "Yellow-breasted Apalis",
+    "scientific_name": "Apalis flavida",
+    "latitude": -3.3941,
+    "longitude": 34.0906,
+    "sample_count": 106
+  },
+  "57": {
+    "id": 57,
+    "primary_label": "57",
+    "common_name": "Yellow-whiskered Greenbul",
+    "scientific_name": "Eurillas latirostris",
+    "latitude": -0.636,
+    "longitude": 29.7865,
+    "sample_count": 108
+  },
+  "58": {
+    "id": 58,
+    "primary_label": "58",
+    "common_name": "Pale Flycatcher",
+    "scientific_name": "Agricola pallidus",
+    "latitude": -1.8298,
+    "longitude": 33.0671,
+    "sample_count": 14
+  },
+  "59": {
+    "id": 59,
+    "primary_label": "59",
+    "common_name": "Garganey",
+    "scientific_name": "Spatula querquedula",
+    "latitude": 49.7612,
+    "longitude": 13.9031,
+    "sample_count": 136
+  },
+  "60": {
+    "id": 60,
+    "primary_label": "60",
+    "common_name": "African Darter",
+    "scientific_name": "Anhinga rufa",
+    "latitude": -33.594,
+    "longitude": 26.89,
+    "sample_count": 7
+  },
+  "61": {
+    "id": 61,
+    "primary_label": "61",
+    "common_name": "Red-rumped Swallow",
+    "scientific_name": "Cecropis daurica",
+    "latitude": 38.0272,
+    "longitude": -4.8902,
+    "sample_count": 227
+  },
+  "62": {
+    "id": 62,
+    "primary_label": "62",
+    "common_name": "Augur Buzzard",
+    "scientific_name": "Buteo augur",
+    "latitude": -2.9994,
+    "longitude": 37.1641,
+    "sample_count": 12
+  },
+  "63": {
+    "id": 63,
+    "primary_label": "63",
+    "common_name": "Gray-headed Bushshrike",
+    "scientific_name": "Malaconotus blanchoti",
+    "latitude": -4.0051,
+    "longitude": 31.7211,
+    "sample_count": 72
+  },
+  "64": {
+    "id": 64,
+    "primary_label": "64",
+    "common_name": "Red-faced Crombec",
+    "scientific_name": "Sylvietta whytii",
+    "latitude": -1.0189,
+    "longitude": 36.3593,
+    "sample_count": 42
+  },
+  "65": {
+    "id": 65,
+    "primary_label": "65",
+    "common_name": "Wire-tailed Swallow",
+    "scientific_name": "Hirundo smithii",
+    "latitude": 19.3642,
+    "longitude": 98.9563,
+    "sample_count": 5
+  },
+  "66": {
+    "id": 66,
+    "primary_label": "66",
+    "common_name": "Gray Apalis",
+    "scientific_name": "Apalis cinerea",
+    "latitude": -0.9681,
+    "longitude": 34.117,
+    "sample_count": 28
+  },
+  "67": {
+    "id": 67,
+    "primary_label": "67",
+    "common_name": "Pin-tailed Whydah",
+    "scientific_name": "Vidua macroura",
+    "latitude": -2.9858,
+    "longitude": 26.5648,
+    "sample_count": 52
+  },
+  "68": {
+    "id": 68,
+    "primary_label": "68",
+    "common_name": "Western Yellow Wagtail",
+    "scientific_name": "Motacilla flava",
+    "latitude": 49.634,
+    "longitude": 9.9077,
+    "sample_count": 500
+  },
+  "69": {
+    "id": 69,
+    "primary_label": "69",
+    "common_name": "Black-headed Gonolek",
+    "scientific_name": "Laniarius erythrogaster",
+    "latitude": 0.2046,
+    "longitude": 31.6199,
+    "sample_count": 23
+  },
+  "70": {
+    "id": 70,
+    "primary_label": "70",
+    "common_name": "Yellow-billed Stork",
+    "scientific_name": "Mycteria ibis",
+    "latitude": 12.5881,
+    "longitude": -16.2737,
+    "sample_count": 1
+  },
+  "71": {
+    "id": 71,
+    "primary_label": "71",
+    "common_name": "Hinde's Pied-Babbler",
+    "scientific_name": "Turdoides hindei",
+    "latitude": -0.606,
+    "longitude": 37.1631,
+    "sample_count": 8
+  },
+  "72": {
+    "id": 72,
+    "primary_label": "72",
+    "common_name": "White-chinned Prinia",
+    "scientific_name": "Schistolais leucopogon",
+    "latitude": -0.9897,
+    "longitude": 29.6881,
+    "sample_count": 9
+  },
+  "73": {
+    "id": 73,
+    "primary_label": "73",
+    "common_name": "Speckled Mousebird",
+    "scientific_name": "Colius striatus",
+    "latitude": -3.3523,
+    "longitude": 26.9431,
+    "sample_count": 41
+  },
+  "74": {
+    "id": 74,
+    "primary_label": "74",
+    "common_name": "Golden-breasted Starling",
+    "scientific_name": "Lamprotornis regius",
+    "latitude": 4.7351,
+    "longitude": 39.2277,
+    "sample_count": 3
+  },
+  "75": {
+    "id": 75,
+    "primary_label": "75",
+    "common_name": "Black Sawwing",
+    "scientific_name": "Psalidoprocne pristoptera",
+    "latitude": -8.4935,
+    "longitude": 35.9031,
+    "sample_count": 13
+  },
+  "76": {
+    "id": 76,
+    "primary_label": "76",
+    "common_name": "African Emerald Cuckoo",
+    "scientific_name": "Chrysococcyx cupreus",
+    "latitude": 0.2885,
+    "longitude": 25.6091,
+    "sample_count": 90
+  },
+  "77": {
+    "id": 77,
+    "primary_label": "77",
+    "common_name": "Speckled Pigeon",
+    "scientific_name": "Columba guinea",
+    "latitude": -7.7783,
+    "longitude": 34.9896,
+    "sample_count": 37
+  },
+  "78": {
+    "id": 78,
+    "primary_label": "78",
+    "common_name": "Madagascar Bee-eater",
+    "scientific_name": "Merops superciliosus",
+    "latitude": -20.8263,
+    "longitude": 43.6392,
+    "sample_count": 16
+  },
+  "79": {
+    "id": 79,
+    "primary_label": "79",
+    "common_name": "Red-winged Starling",
+    "scientific_name": "Onychognathus morio",
+    "latitude": -29.5521,
+    "longitude": 27.008,
+    "sample_count": 28
+  },
+  "80": {
+    "id": 80,
+    "primary_label": "80",
+    "common_name": "Northern Red-billed Hornbill",
+    "scientific_name": "Tockus erythrorhynchus",
+    "latitude": 7.5498,
+    "longitude": 36.4271,
+    "sample_count": 28
+  },
+  "81": {
+    "id": 81,
+    "primary_label": "81",
+    "common_name": "Brown-tailed Chat",
+    "scientific_name": "Oenanthe scotocerca",
+    "latitude": 4.864,
+    "longitude": 39.312,
+    "sample_count": 1
+  },
+  "82": {
+    "id": 82,
+    "primary_label": "82",
+    "common_name": "Black Cuckoo",
+    "scientific_name": "Cuculus clamosus",
+    "latitude": -15.477,
+    "longitude": 26.8969,
+    "sample_count": 76
+  },
+  "83": {
+    "id": 83,
+    "primary_label": "83",
+    "common_name": "Brimstone Canary",
+    "scientific_name": "Crithagra sulphurata",
+    "latitude": -33.2715,
+    "longitude": 26.818,
+    "sample_count": 29
+  },
+  "84": {
+    "id": 84,
+    "primary_label": "84",
+    "common_name": "Red-headed Bluebill",
+    "scientific_name": "Spermophaga ruficapilla",
+    "latitude": 0.215,
+    "longitude": 32.9201,
+    "sample_count": 2
+  },
+  "85": {
+    "id": 85,
+    "primary_label": "85",
+    "common_name": "Golden-breasted Bunting",
+    "scientific_name": "Emberiza flaviventris",
+    "latitude": -22.6924,
+    "longitude": 29.7985,
+    "sample_count": 81
+  },
+  "86": {
+    "id": 86,
+    "primary_label": "86",
+    "common_name": "Superb Starling",
+    "scientific_name": "Lamprotornis superbus",
+    "latitude": -1.5138,
+    "longitude": 37.3809,
+    "sample_count": 37
+  },
+  "87": {
+    "id": 87,
+    "primary_label": "87",
+    "common_name": "Black-faced Rufous-Warbler",
+    "scientific_name": "Bathmocercus rufus",
+    "latitude": -0.9746,
+    "longitude": 29.7502,
+    "sample_count": 28
+  },
+  "88": {
+    "id": 88,
+    "primary_label": "88",
+    "common_name": "Little Swift",
+    "scientific_name": "Apus affinis",
+    "latitude": -5.25,
+    "longitude": 36.6854,
+    "sample_count": 72
+  },
+  "89": {
+    "id": 89,
+    "primary_label": "89",
+    "common_name": "Spotted Morning-Thrush",
+    "scientific_name": "Cichladusa guttata",
+    "latitude": -2.9858,
+    "longitude": 37.5975,
+    "sample_count": 94
+  },
+  "90": {
+    "id": 90,
+    "primary_label": "90",
+    "common_name": "Spur-winged Lapwing",
+    "scientific_name": "Vanellus spinosus",
+    "latitude": 12.6561,
+    "longitude": 33.628,
+    "sample_count": 59
+  },
+  "91": {
+    "id": 91,
+    "primary_label": "91",
+    "common_name": "Quailfinch",
+    "scientific_name": "Ortygospiza atricollis",
+    "latitude": -26.2691,
+    "longitude": 25.6876,
+    "sample_count": 44
+  },
+  "92": {
+    "id": 92,
+    "primary_label": "92",
+    "common_name": "Goliath Heron",
+    "scientific_name": "Ardea goliath",
+    "latitude": -27.2739,
+    "longitude": 29.9082,
+    "sample_count": 2
+  },
+  "93": {
+    "id": 93,
+    "primary_label": "93",
+    "common_name": "Dideric Cuckoo",
+    "scientific_name": "Chrysococcyx caprius",
+    "latitude": -3.5326,
+    "longitude": 26.7898,
+    "sample_count": 79
+  },
+  "94": {
+    "id": 94,
+    "primary_label": "94",
+    "common_name": "Gray-throated Barbet",
+    "scientific_name": "Gymnobucco bonapartei",
+    "latitude": -0.071,
+    "longitude": 34.8955,
+    "sample_count": 9
+  },
+  "95": {
+    "id": 95,
+    "primary_label": "95",
+    "common_name": "Klaas's Cuckoo",
+    "scientific_name": "Chrysococcyx klaas",
+    "latitude": -0.5204,
+    "longitude": 26.1365,
+    "sample_count": 56
+  },
+  "96": {
+    "id": 96,
+    "primary_label": "96",
+    "common_name": "African Blue Flycatcher",
+    "scientific_name": "Elminia longicauda",
+    "latitude": 5.0029,
+    "longitude": 11.5103,
+    "sample_count": 18
+  },
+  "97": {
+    "id": 97,
+    "primary_label": "97",
+    "common_name": "Bristle-crowned Starling",
+    "scientific_name": "Onychognathus salvadorii",
+    "latitude": 6.906,
+    "longitude": 40.85,
+    "sample_count": 3
+  },
+  "98": {
+    "id": 98,
+    "primary_label": "98",
+    "common_name": "Black-and-white-casqued Hornbill",
+    "scientific_name": "Bycanistes subcylindricus",
+    "latitude": 0.483,
+    "longitude": 30.1611,
+    "sample_count": 47
+  },
+  "99": {
+    "id": 99,
+    "primary_label": "99",
+    "common_name": "White Helmetshrike",
+    "scientific_name": "Prionops plumatus",
+    "latitude": -1.3482,
+    "longitude": 29.9803,
+    "sample_count": 14
+  },
+  "100": {
+    "id": 100,
+    "primary_label": "100",
+    "common_name": "Yellow-spotted Bush Sparrow",
+    "scientific_name": "Gymnoris pyrgita",
+    "latitude": -2.9858,
+    "longitude": 37.5975,
+    "sample_count": 15
+  },
+  "101": {
+    "id": 101,
+    "primary_label": "101",
+    "common_name": "Double-toothed Barbet",
+    "scientific_name": "Lybius bidentatus",
+    "latitude": 0.3328,
+    "longitude": 34.0906,
+    "sample_count": 3
+  },
+  "102": {
+    "id": 102,
+    "primary_label": "102",
+    "common_name": "L\u00fchder's Bushshrike",
+    "scientific_name": "Laniarius luehderi",
+    "latitude": -0.989,
+    "longitude": 29.7102,
+    "sample_count": 19
+  },
+  "103": {
+    "id": 103,
+    "primary_label": "103",
+    "common_name": "Yellow-crowned Canary",
+    "scientific_name": "Serinus flavivertex",
+    "latitude": -2.9334,
+    "longitude": 37.4626,
+    "sample_count": 13
+  },
+  "104": {
+    "id": 104,
+    "primary_label": "104",
+    "common_name": "Tawny-flanked Prinia",
+    "scientific_name": "Prinia subflava",
+    "latitude": -2.9965,
+    "longitude": 32.096,
+    "sample_count": 161
+  },
+  "105": {
+    "id": 105,
+    "primary_label": "105",
+    "common_name": "Chestnut Sparrow",
+    "scientific_name": "Passer eminibey",
+    "latitude": -3.4782,
+    "longitude": 36.6943,
+    "sample_count": 6
+  },
+  "106": {
+    "id": 106,
+    "primary_label": "106",
+    "common_name": "Black Crake",
+    "scientific_name": "Zapornia flavirostra",
+    "latitude": -17.2479,
+    "longitude": 26.5989,
+    "sample_count": 60
+  },
+  "107": {
+    "id": 107,
+    "primary_label": "107",
+    "common_name": "Scaly-throated Honeyguide",
+    "scientific_name": "Indicator variegatus",
+    "latitude": -23.8058,
+    "longitude": 31.762,
+    "sample_count": 25
+  },
+  "108": {
+    "id": 108,
+    "primary_label": "108",
+    "common_name": "White-browed Coucal",
+    "scientific_name": "Centropus superciliosus",
+    "latitude": -6.256,
+    "longitude": 36.6653,
+    "sample_count": 73
+  },
+  "109": {
+    "id": 109,
+    "primary_label": "109",
+    "common_name": "Cinnamon-chested Bee-eater",
+    "scientific_name": "Merops oreobates",
+    "latitude": -1.1367,
+    "longitude": 36.8033,
+    "sample_count": 13
+  },
+  "110": {
+    "id": 110,
+    "primary_label": "110",
+    "common_name": "Little Bee-eater",
+    "scientific_name": "Merops pusillus",
+    "latitude": -8.1871,
+    "longitude": 28.2237,
+    "sample_count": 29
+  },
+  "111": {
+    "id": 111,
+    "primary_label": "111",
+    "common_name": "White-crested Turaco",
+    "scientific_name": "Tauraco leucolophus",
+    "latitude": 1.3088,
+    "longitude": 34.9554,
+    "sample_count": 1
+  },
+  "112": {
+    "id": 112,
+    "primary_label": "112",
+    "common_name": "Buff-throated Apalis",
+    "scientific_name": "Apalis rufogularis",
+    "latitude": 0.8233,
+    "longitude": 30.09,
+    "sample_count": 30
+  },
+  "113": {
+    "id": 113,
+    "primary_label": "113",
+    "common_name": "Northern Puffback",
+    "scientific_name": "Dryoscopus gambensis",
+    "latitude": 5.9966,
+    "longitude": 18.5112,
+    "sample_count": 20
+  },
+  "114": {
+    "id": 114,
+    "primary_label": "114",
+    "common_name": "Black-winged Lapwing",
+    "scientific_name": "Vanellus melanopterus",
+    "latitude": -29.002,
+    "longitude": 29.3135,
+    "sample_count": 15
+  },
+  "115": {
+    "id": 115,
+    "primary_label": "115",
+    "common_name": "Mourning Collared-Dove",
+    "scientific_name": "Streptopelia decipiens",
+    "latitude": 0.5824,
+    "longitude": 31.7335,
+    "sample_count": 37
+  },
+  "116": {
+    "id": 116,
+    "primary_label": "116",
+    "common_name": "Hartlaub's Turaco",
+    "scientific_name": "Tauraco hartlaubi",
+    "latitude": -0.708,
+    "longitude": 36.8033,
+    "sample_count": 18
+  },
+  "117": {
+    "id": 117,
+    "primary_label": "117",
+    "common_name": "Beautiful Sunbird",
+    "scientific_name": "Cinnyris pulchellus",
+    "latitude": 7.3041,
+    "longitude": 34.2536,
+    "sample_count": 34
+  },
+  "118": {
+    "id": 118,
+    "primary_label": "118",
+    "common_name": "Vitelline Masked-Weaver",
+    "scientific_name": "Ploceus vitellinus",
+    "latitude": 12.988,
+    "longitude": -10.6548,
+    "sample_count": 18
+  },
+  "119": {
+    "id": 119,
+    "primary_label": "119",
+    "common_name": "Squacco Heron",
+    "scientific_name": "Ardeola ralloides",
+    "latitude": 23.7558,
+    "longitude": 6.6148,
+    "sample_count": 48
+  },
+  "120": {
+    "id": 120,
+    "primary_label": "120",
+    "common_name": "Yellow-billed Barbet",
+    "scientific_name": "Trachyphonus purpuratus",
+    "latitude": 0.8257,
+    "longitude": 22.9231,
+    "sample_count": 34
+  },
+  "121": {
+    "id": 121,
+    "primary_label": "121",
+    "common_name": "Black-tailed Oriole",
+    "scientific_name": "Oriolus percivali",
+    "latitude": -1.0384,
+    "longitude": 29.7822,
+    "sample_count": 20
+  },
+  "122": {
+    "id": 122,
+    "primary_label": "122",
+    "common_name": "Scarlet-chested Sunbird",
+    "scientific_name": "Chalcomitra senegalensis",
+    "latitude": -2.9858,
+    "longitude": 36.6951,
+    "sample_count": 78
+  },
+  "123": {
+    "id": 123,
+    "primary_label": "123",
+    "common_name": "Pied Crow",
+    "scientific_name": "Corvus albus",
+    "latitude": -4.9402,
+    "longitude": 27.5317,
+    "sample_count": 91
+  },
+  "124": {
+    "id": 124,
+    "primary_label": "124",
+    "common_name": "Chinspot Batis",
+    "scientific_name": "Batis molitor",
+    "latitude": -24.3834,
+    "longitude": 29.7657,
+    "sample_count": 79
+  },
+  "125": {
+    "id": 125,
+    "primary_label": "125",
+    "common_name": "Marabou Stork",
+    "scientific_name": "Leptoptilos crumenifer",
+    "latitude": 7.0497,
+    "longitude": 38.4616,
+    "sample_count": 6
+  },
+  "126": {
+    "id": 126,
+    "primary_label": "126",
+    "common_name": "African Paradise-Flycatcher",
+    "scientific_name": "Terpsiphone viridis",
+    "latitude": -1.1825,
+    "longitude": 27.8364,
+    "sample_count": 104
+  },
+  "127": {
+    "id": 127,
+    "primary_label": "127",
+    "common_name": "Blue-cheeked Bee-eater",
+    "scientific_name": "Merops persicus",
+    "latitude": 20.702,
+    "longitude": 47.696,
+    "sample_count": 81
+  },
+  "128": {
+    "id": 128,
+    "primary_label": "128",
+    "common_name": "White-browed Sparrow-Weaver",
+    "scientific_name": "Plocepasser mahali",
+    "latitude": -3.2061,
+    "longitude": 35.0267,
+    "sample_count": 78
+  },
+  "129": {
+    "id": 129,
+    "primary_label": "129",
+    "common_name": "Yellow-bellied Eremomela",
+    "scientific_name": "Eremomela icteropygialis",
+    "latitude": -26.812,
+    "longitude": 26.328,
+    "sample_count": 35
+  },
+  "130": {
+    "id": 130,
+    "primary_label": "130",
+    "common_name": "Red-backed Scrub-Robin",
+    "scientific_name": "Cercotrichas leucophrys",
+    "latitude": -23.9562,
+    "longitude": 28.4276,
+    "sample_count": 281
+  },
+  "131": {
+    "id": 131,
+    "primary_label": "131",
+    "common_name": "Brown-capped Weaver",
+    "scientific_name": "Ploceus insignis",
+    "latitude": -0.1194,
+    "longitude": 29.9383,
+    "sample_count": 2
+  },
+  "132": {
+    "id": 132,
+    "primary_label": "132",
+    "common_name": "Blue-spotted Wood-Dove",
+    "scientific_name": "Turtur afer",
+    "latitude": 2.9854,
+    "longitude": 12.8016,
+    "sample_count": 27
+  },
+  "133": {
+    "id": 133,
+    "primary_label": "133",
+    "common_name": "Kenya Rufous Sparrow",
+    "scientific_name": "Passer rufocinctus",
+    "latitude": -1.4638,
+    "longitude": 36.8558,
+    "sample_count": 34
+  },
+  "134": {
+    "id": 134,
+    "primary_label": "134",
+    "common_name": "Slate-colored Boubou",
+    "scientific_name": "Laniarius funebris",
+    "latitude": -2.9858,
+    "longitude": 37.5975,
+    "sample_count": 51
+  },
+  "135": {
+    "id": 135,
+    "primary_label": "135",
+    "common_name": "Fischer's Lovebird",
+    "scientific_name": "Agapornis fischeri",
+    "latitude": -0.6675,
+    "longitude": 35.6283,
+    "sample_count": 15
+  },
+  "136": {
+    "id": 136,
+    "primary_label": "136",
+    "common_name": "Common House-Martin",
+    "scientific_name": "Delichon urbicum",
+    "latitude": 47.8637,
+    "longitude": 3.7178,
+    "sample_count": 425
+  },
+  "137": {
+    "id": 137,
+    "primary_label": "137",
+    "common_name": "Lesser Masked-Weaver",
+    "scientific_name": "Ploceus intermedius",
+    "latitude": -2.8145,
+    "longitude": 36.0252,
+    "sample_count": 14
+  },
+  "138": {
+    "id": 138,
+    "primary_label": "138",
+    "common_name": "Cinnamon Bracken-Warbler",
+    "scientific_name": "Bradypterus cinnamomeus",
+    "latitude": -6.8714,
+    "longitude": 36.4921,
+    "sample_count": 113
+  },
+  "139": {
+    "id": 139,
+    "primary_label": "139",
+    "common_name": "Wood Sandpiper",
+    "scientific_name": "Tringa glareola",
+    "latitude": 51.4812,
+    "longitude": 17.0124,
+    "sample_count": 486
+  },
+  "140": {
+    "id": 140,
+    "primary_label": "140",
+    "common_name": "Shelley's Starling",
+    "scientific_name": "Lamprotornis shelleyi",
+    "latitude": 5.2013,
+    "longitude": 39.7593,
+    "sample_count": 3
+  },
+  "141": {
+    "id": 141,
+    "primary_label": "141",
+    "common_name": "Red-cheeked Cordonbleu",
+    "scientific_name": "Uraeginthus bengalus",
+    "latitude": 0.0033,
+    "longitude": 35.4973,
+    "sample_count": 56
+  },
+  "142": {
+    "id": 142,
+    "primary_label": "142",
+    "common_name": "Green-headed Sunbird",
+    "scientific_name": "Cyanomitra verticalis",
+    "latitude": -0.6306,
+    "longitude": 31.289,
+    "sample_count": 19
+  },
+  "143": {
+    "id": 143,
+    "primary_label": "143",
+    "common_name": "Chubb's Cisticola",
+    "scientific_name": "Cisticola chubbi",
+    "latitude": -1.2438,
+    "longitude": 29.6734,
+    "sample_count": 29
+  },
+  "144": {
+    "id": 144,
+    "primary_label": "144",
+    "common_name": "Fan-tailed Raven",
+    "scientific_name": "Corvus rhipidurus",
+    "latitude": 17.1132,
+    "longitude": 42.1392,
+    "sample_count": 25
+  },
+  "145": {
+    "id": 145,
+    "primary_label": "145",
+    "common_name": "Slender-billed Greenbul",
+    "scientific_name": "Stelgidillas gracilirostris",
+    "latitude": 0.483,
+    "longitude": 31.5418,
+    "sample_count": 23
+  },
+  "146": {
+    "id": 146,
+    "primary_label": "146",
+    "common_name": "African Gray Hornbill",
+    "scientific_name": "Lophoceros nasutus",
+    "latitude": 9.388,
+    "longitude": 24.785,
+    "sample_count": 72
+  },
+  "147": {
+    "id": 147,
+    "primary_label": "147",
+    "common_name": "African Jacana",
+    "scientific_name": "Actophilornis africanus",
+    "latitude": -8.1871,
+    "longitude": 32.3482,
+    "sample_count": 30
+  },
+  "148": {
+    "id": 148,
+    "primary_label": "148",
+    "common_name": "African Black-headed Oriole",
+    "scientific_name": "Oriolus larvatus",
+    "latitude": -24.3834,
+    "longitude": 29.7866,
+    "sample_count": 126
+  },
+  "149": {
+    "id": 149,
+    "primary_label": "149",
+    "common_name": "White-bellied Go-away-bird",
+    "scientific_name": "Corythaixoides leucogaster",
+    "latitude": 0.0881,
+    "longitude": 37.3809,
+    "sample_count": 27
+  },
+  "150": {
+    "id": 150,
+    "primary_label": "150",
+    "common_name": "Sulphur-breasted Bushshrike",
+    "scientific_name": "Telophorus sulfureopectus",
+    "latitude": -2.9858,
+    "longitude": 30.236,
+    "sample_count": 90
+  },
+  "151": {
+    "id": 151,
+    "primary_label": "151",
+    "common_name": "Black-and-white Mannikin",
+    "scientific_name": "Spermestes bicolor",
+    "latitude": 3.3802,
+    "longitude": 15.229,
+    "sample_count": 7
+  },
+  "152": {
+    "id": 152,
+    "primary_label": "152",
+    "common_name": "White-rumped Shrike",
+    "scientific_name": "Eurocephalus ruppelli",
+    "latitude": -3.2092,
+    "longitude": 36.0436,
+    "sample_count": 8
+  },
+  "153": {
+    "id": 153,
+    "primary_label": "153",
+    "common_name": "Eurasian Hoopoe",
+    "scientific_name": "Upupa epops",
+    "latitude": 41.6062,
+    "longitude": 13.2101,
+    "sample_count": 436
+  },
+  "154": {
+    "id": 154,
+    "primary_label": "154",
+    "common_name": "Lesser Striped Swallow",
+    "scientific_name": "Cecropis abyssinica",
+    "latitude": -0.3951,
+    "longitude": 26.5195,
+    "sample_count": 40
+  },
+  "155": {
+    "id": 155,
+    "primary_label": "155",
+    "common_name": "Rock Martin",
+    "scientific_name": "Ptyonoprogne fuligula",
+    "latitude": -0.5416,
+    "longitude": 35.9066,
+    "sample_count": 22
+  },
+  "156": {
+    "id": 156,
+    "primary_label": "156",
+    "common_name": "Long-toed Lapwing",
+    "scientific_name": "Vanellus crassirostris",
+    "latitude": -11.9651,
+    "longitude": 30.2346,
+    "sample_count": 3
+  },
+  "157": {
+    "id": 157,
+    "primary_label": "157",
+    "common_name": "Tambourine Dove",
+    "scientific_name": "Turtur tympanistria",
+    "latitude": -6.8714,
+    "longitude": 36.58,
+    "sample_count": 97
+  },
+  "158": {
+    "id": 158,
+    "primary_label": "158",
+    "common_name": "Rufous Chatterer",
+    "scientific_name": "Argya rubiginosa",
+    "latitude": 8.5446,
+    "longitude": 39.3355,
+    "sample_count": 6
+  },
+  "159": {
+    "id": 159,
+    "primary_label": "159",
+    "common_name": "Pale Prinia",
+    "scientific_name": "Prinia somalica",
+    "latitude": 5.2013,
+    "longitude": 40.0589,
+    "sample_count": 4
+  },
+  "160": {
+    "id": 160,
+    "primary_label": "160",
+    "common_name": "Red-billed Oxpecker",
+    "scientific_name": "Buphagus erythrorynchus",
+    "latitude": -25.3797,
+    "longitude": 27.449,
+    "sample_count": 21
+  },
+  "161": {
+    "id": 161,
+    "primary_label": "161",
+    "common_name": "Chestnut Weaver",
+    "scientific_name": "Ploceus rubiginosus",
+    "latitude": 2.7373,
+    "longitude": 38.4879,
+    "sample_count": 8
+  },
+  "162": {
+    "id": 162,
+    "primary_label": "162",
+    "common_name": "Malachite Kingfisher",
+    "scientific_name": "Corythornis cristatus",
+    "latitude": 1.6416,
+    "longitude": 9.9011,
+    "sample_count": 15
+  },
+  "163": {
+    "id": 163,
+    "primary_label": "163",
+    "common_name": "Village Weaver",
+    "scientific_name": "Ploceus cucullatus",
+    "latitude": -0.5426,
+    "longitude": 29.7211,
+    "sample_count": 88
+  },
+  "164": {
+    "id": 164,
+    "primary_label": "164",
+    "common_name": "Red-chested Cuckoo",
+    "scientific_name": "Cuculus solitarius",
+    "latitude": -2.9912,
+    "longitude": 30.5609,
+    "sample_count": 122
+  },
+  "165": {
+    "id": 165,
+    "primary_label": "165",
+    "common_name": "Black-throated Barbet",
+    "scientific_name": "Tricholaema melanocephala",
+    "latitude": 4.864,
+    "longitude": 39.312,
+    "sample_count": 7
+  },
+  "166": {
+    "id": 166,
+    "primary_label": "166",
+    "common_name": "Tropical Boubou",
+    "scientific_name": "Laniarius major",
+    "latitude": -1.3721,
+    "longitude": 34.8092,
+    "sample_count": 98
+  },
+  "167": {
+    "id": 167,
+    "primary_label": "167",
+    "common_name": "Abyssinian Thrush",
+    "scientific_name": "Turdus abyssinicus",
+    "latitude": -1.262,
+    "longitude": 36.8046,
+    "sample_count": 28
+  },
+  "168": {
+    "id": 168,
+    "primary_label": "168",
+    "common_name": "Bronze Mannikin",
+    "scientific_name": "Spermestes cucullata",
+    "latitude": -1.229,
+    "longitude": 26.7853,
+    "sample_count": 38
+  },
+  "169": {
+    "id": 169,
+    "primary_label": "169",
+    "common_name": "Eastern Mountain Greenbul",
+    "scientific_name": "Arizelocichla nigriceps",
+    "latitude": -1.3589,
+    "longitude": 29.7971,
+    "sample_count": 15
+  },
+  "170": {
+    "id": 170,
+    "primary_label": "170",
+    "common_name": "Spot-flanked Barbet",
+    "scientific_name": "Tricholaema lacrymosa",
+    "latitude": -2.9858,
+    "longitude": 37.5975,
+    "sample_count": 13
+  },
+  "171": {
+    "id": 171,
+    "primary_label": "171",
+    "common_name": "African Pied Wagtail",
+    "scientific_name": "Motacilla aguimp",
+    "latitude": -3.3494,
+    "longitude": 31.6028,
+    "sample_count": 81
+  },
+  "172": {
+    "id": 172,
+    "primary_label": "172",
+    "common_name": "Red-fronted Barbet",
+    "scientific_name": "Tricholaema diademata",
+    "latitude": -1.4926,
+    "longitude": 37.0647,
+    "sample_count": 12
+  },
+  "173": {
+    "id": 173,
+    "primary_label": "173",
+    "common_name": "Striated Heron",
+    "scientific_name": "Butorides striata",
+    "latitude": -3.4002,
+    "longitude": -40.8739,
+    "sample_count": 119
+  },
+  "174": {
+    "id": 174,
+    "primary_label": "174",
+    "common_name": "White-headed Sawwing",
+    "scientific_name": "Psalidoprocne albiceps",
+    "latitude": 2.21,
+    "longitude": 31.562,
+    "sample_count": 1
+  },
+  "175": {
+    "id": 175,
+    "primary_label": "175",
+    "common_name": "Green-backed Camaroptera",
+    "scientific_name": "Camaroptera brachyura",
+    "latitude": -28.7944,
+    "longitude": 31.0038,
+    "sample_count": 94
+  },
+  "176": {
+    "id": 176,
+    "primary_label": "176",
+    "common_name": "Silvery-cheeked Hornbill",
+    "scientific_name": "Bycanistes brevis",
+    "latitude": -4.988,
+    "longitude": 36.5882,
+    "sample_count": 45
+  },
+  "177": {
+    "id": 177,
+    "primary_label": "177",
+    "common_name": "Crowned Eagle",
+    "scientific_name": "Stephanoaetus coronatus",
+    "latitude": -8.1799,
+    "longitude": 32.9344,
+    "sample_count": 36
+  },
+  "178": {
+    "id": 178,
+    "primary_label": "178",
+    "common_name": "Woodland Kingfisher",
+    "scientific_name": "Halcyon senegalensis",
+    "latitude": 0.3517,
+    "longitude": 30.0219,
+    "sample_count": 67
+  },
+  "179": {
+    "id": 179,
+    "primary_label": "179",
+    "common_name": "Helmeted Guineafowl",
+    "scientific_name": "Numida meleagris",
+    "latitude": -18.7589,
+    "longitude": 26.7604,
+    "sample_count": 59
+  },
+  "180": {
+    "id": 180,
+    "primary_label": "180",
+    "common_name": "Streaky Seedeater",
+    "scientific_name": "Crithagra striolata",
+    "latitude": -1.2433,
+    "longitude": 36.6872,
+    "sample_count": 33
+  },
+  "181": {
+    "id": 181,
+    "primary_label": "181",
+    "common_name": "Chestnut-throated Apalis",
+    "scientific_name": "Apalis porphyrolaema",
+    "latitude": -1.062,
+    "longitude": 29.7865,
+    "sample_count": 27
+  },
+  "182": {
+    "id": 182,
+    "primary_label": "182",
+    "common_name": "Gray Crowned-Crane",
+    "scientific_name": "Balearica regulorum",
+    "latitude": -3.1488,
+    "longitude": 33.463,
+    "sample_count": 12
+  },
+  "183": {
+    "id": 183,
+    "primary_label": "183",
+    "common_name": "Brubru",
+    "scientific_name": "Nilaus afer",
+    "latitude": -15.477,
+    "longitude": 26.852,
+    "sample_count": 81
+  },
+  "184": {
+    "id": 184,
+    "primary_label": "184",
+    "common_name": "White-browed Robin-Chat",
+    "scientific_name": "Cossypha heuglini",
+    "latitude": -3.3793,
+    "longitude": 31.2277,
+    "sample_count": 132
+  },
+  "185": {
+    "id": 185,
+    "primary_label": "185",
+    "common_name": "Black-crowned Tchagra",
+    "scientific_name": "Tchagra senegalus",
+    "latitude": 6.3155,
+    "longitude": 25.5216,
+    "sample_count": 109
+  },
+  "186": {
+    "id": 186,
+    "primary_label": "186",
+    "common_name": "Yellow-spotted Barbet",
+    "scientific_name": "Buccanodon duchaillui",
+    "latitude": 5.3282,
+    "longitude": 12.8222,
+    "sample_count": 29
+  },
+  "187": {
+    "id": 187,
+    "primary_label": "187",
+    "common_name": "Snowy-crowned Robin-Chat",
+    "scientific_name": "Cossypha niveicapilla",
+    "latitude": 3.8891,
+    "longitude": 11.5103,
+    "sample_count": 30
+  },
+  "188": {
+    "id": 188,
+    "primary_label": "188",
+    "common_name": "African Fish-Eagle",
+    "scientific_name": "Haliaeetus vocifer",
+    "latitude": -8.1871,
+    "longitude": 36.37,
+    "sample_count": 48
+  },
+  "189": {
+    "id": 189,
+    "primary_label": "189",
+    "common_name": "Green-winged Pytilia",
+    "scientific_name": "Pytilia melba",
+    "latitude": -26.5245,
+    "longitude": 26.739,
+    "sample_count": 26
+  },
+  "190": {
+    "id": 190,
+    "primary_label": "190",
+    "common_name": "White-bellied Tit",
+    "scientific_name": "Melaniparus albiventris",
+    "latitude": -0.636,
+    "longitude": 35.8208,
+    "sample_count": 23
+  },
+  "191": {
+    "id": 191,
+    "primary_label": "191",
+    "common_name": "Speckle-fronted Weaver",
+    "scientific_name": "Sporopipes frontalis",
+    "latitude": -1.2231,
+    "longitude": 36.0395,
+    "sample_count": 12
+  },
+  "192": {
+    "id": 192,
+    "primary_label": "192",
+    "common_name": "Bronze Sunbird",
+    "scientific_name": "Nectarinia kilimensis",
+    "latitude": -2.1723,
+    "longitude": 36.5187,
+    "sample_count": 30
+  },
+  "193": {
+    "id": 193,
+    "primary_label": "193",
+    "common_name": "Common Buzzard",
+    "scientific_name": "Buteo buteo",
+    "latitude": 50.1128,
+    "longitude": 6.1442,
+    "sample_count": 477
+  },
+  "194": {
+    "id": 194,
+    "primary_label": "194",
+    "common_name": "Tacazze Sunbird",
+    "scientific_name": "Nectarinia tacazze",
+    "latitude": 5.2466,
+    "longitude": 38.0361,
+    "sample_count": 6
+  },
+  "195": {
+    "id": 195,
+    "primary_label": "195",
+    "common_name": "D'Arnaud's Barbet",
+    "scientific_name": "Trachyphonus darnaudii",
+    "latitude": -2.651,
+    "longitude": 37.5918,
+    "sample_count": 32
+  },
+  "196": {
+    "id": 196,
+    "primary_label": "196",
+    "common_name": "Green Woodhoopoe",
+    "scientific_name": "Phoeniculus purpureus",
+    "latitude": -3.389,
+    "longitude": 26.8969,
+    "sample_count": 103
+  },
+  "197": {
+    "id": 197,
+    "primary_label": "197",
+    "common_name": "Purple Grenadier",
+    "scientific_name": "Granatina ianthinogaster",
+    "latitude": -1.1157,
+    "longitude": 37.0897,
+    "sample_count": 10
+  },
+  "198": {
+    "id": 198,
+    "primary_label": "198",
+    "common_name": "Great Cormorant",
+    "scientific_name": "Phalacrocorax carbo",
+    "latitude": 48.8023,
+    "longitude": 10.6132,
+    "sample_count": 138
+  },
+  "199": {
+    "id": 199,
+    "primary_label": "199",
+    "common_name": "White-bellied Canary",
+    "scientific_name": "Crithagra dorsostriata",
+    "latitude": -2.8142,
+    "longitude": 37.5435,
+    "sample_count": 10
+  },
+  "200": {
+    "id": 200,
+    "primary_label": "200",
+    "common_name": "African Green-Pigeon",
+    "scientific_name": "Treron calvus",
+    "latitude": -0.5968,
+    "longitude": 26.5104,
+    "sample_count": 25
+  },
+  "201": {
+    "id": 201,
+    "primary_label": "201",
+    "common_name": "Mountain Wagtail",
+    "scientific_name": "Motacilla clara",
+    "latitude": -33.3976,
+    "longitude": 26.9686,
+    "sample_count": 30
+  },
+  "202": {
+    "id": 202,
+    "primary_label": "202",
+    "common_name": "Baglafecht Weaver",
+    "scientific_name": "Ploceus baglafecht",
+    "latitude": -1.2519,
+    "longitude": 36.5049,
+    "sample_count": 24
+  },
+  "203": {
+    "id": 203,
+    "primary_label": "203",
+    "common_name": "Emerald-spotted Wood-Dove",
+    "scientific_name": "Turtur chalcospilos",
+    "latitude": -15.3955,
+    "longitude": 31.9139,
+    "sample_count": 63
+  },
+  "204": {
+    "id": 204,
+    "primary_label": "204",
+    "common_name": "Black-fronted Bushshrike",
+    "scientific_name": "Telophorus nigrifrons",
+    "latitude": -6.9619,
+    "longitude": 36.5794,
+    "sample_count": 38
+  },
+  "205": {
+    "id": 205,
+    "primary_label": "205",
+    "common_name": "Southern Citril",
+    "scientific_name": "Crithagra hyposticta",
+    "latitude": -2.9858,
+    "longitude": 37.5975,
+    "sample_count": 21
+  },
+  "206": {
+    "id": 206,
+    "primary_label": "206",
+    "common_name": "Blue-naped Mousebird",
+    "scientific_name": "Urocolius macrourus",
+    "latitude": 0.6245,
+    "longitude": 36.8203,
+    "sample_count": 26
+  },
+  "207": {
+    "id": 207,
+    "primary_label": "207",
+    "common_name": "Greater Blue-eared Starling",
+    "scientific_name": "Lamprotornis chalybaeus",
+    "latitude": -0.6306,
+    "longitude": 34.2962,
+    "sample_count": 45
+  },
+  "208": {
+    "id": 208,
+    "primary_label": "208",
+    "common_name": "Pale White-eye",
+    "scientific_name": "Zosterops flavilateralis",
+    "latitude": -2.9858,
+    "longitude": 37.5975,
+    "sample_count": 34
+  },
+  "209": {
+    "id": 209,
+    "primary_label": "209",
+    "common_name": "Sombre Greenbul",
+    "scientific_name": "Andropadus importunus",
+    "latitude": -23.8519,
+    "longitude": 31.4494,
+    "sample_count": 199
+  },
+  "210": {
+    "id": 210,
+    "primary_label": "210",
+    "common_name": "African Thrush",
+    "scientific_name": "Turdus pelios",
+    "latitude": 5.6037,
+    "longitude": 13.1966,
+    "sample_count": 45
+  },
+  "211": {
+    "id": 211,
+    "primary_label": "211",
+    "common_name": "Cardinal Woodpecker",
+    "scientific_name": "Chloropicus fuscescens",
+    "latitude": -26.8166,
+    "longitude": 26.707,
+    "sample_count": 43
+  },
+  "212": {
+    "id": 212,
+    "primary_label": "212",
+    "common_name": "Yellow-necked Francolin",
+    "scientific_name": "Pternistis leucoscepus",
+    "latitude": -1.7804,
+    "longitude": 37.1172,
+    "sample_count": 12
+  },
+  "213": {
+    "id": 213,
+    "primary_label": "213",
+    "common_name": "Golden-backed Weaver",
+    "scientific_name": "Ploceus jacksoni",
+    "latitude": -0.1836,
+    "longitude": 37.5975,
+    "sample_count": 5
+  },
+  "214": {
+    "id": 214,
+    "primary_label": "214",
+    "common_name": "White-fronted Bee-eater",
+    "scientific_name": "Merops bullockoides",
+    "latitude": -15.2203,
+    "longitude": 30.2654,
+    "sample_count": 48
+  },
+  "215": {
+    "id": 215,
+    "primary_label": "215",
+    "common_name": "Black-necked Weaver",
+    "scientific_name": "Ploceus nigricollis",
+    "latitude": 0.4398,
+    "longitude": 15.229,
+    "sample_count": 17
+  },
+  "216": {
+    "id": 216,
+    "primary_label": "216",
+    "common_name": "Southern Fiscal",
+    "scientific_name": "Lanius collaris",
+    "latitude": -31.8758,
+    "longitude": 26.5108,
+    "sample_count": 42
+  },
+  "217": {
+    "id": 217,
+    "primary_label": "217",
+    "common_name": "Hunter's Sunbird",
+    "scientific_name": "Chalcomitra hunteri",
+    "latitude": 4.7102,
+    "longitude": 38.2022,
+    "sample_count": 5
+  },
+  "218": {
+    "id": 218,
+    "primary_label": "218",
+    "common_name": "Northern Black-Flycatcher",
+    "scientific_name": "Melaenornis edolioides",
+    "latitude": 4.2357,
+    "longitude": 34.1861,
+    "sample_count": 16
+  },
+  "219": {
+    "id": 219,
+    "primary_label": "219",
+    "common_name": "Gray-headed Kingfisher",
+    "scientific_name": "Halcyon leucocephala",
+    "latitude": 14.4292,
+    "longitude": 31.562,
+    "sample_count": 53
+  },
+  "220": {
+    "id": 220,
+    "primary_label": "220",
+    "common_name": "Nubian Woodpecker",
+    "scientific_name": "Campethera nubica",
+    "latitude": -2.3548,
+    "longitude": 36.0127,
+    "sample_count": 22
+  },
+  "221": {
+    "id": 221,
+    "primary_label": "221",
+    "common_name": "African Pygmy Kingfisher",
+    "scientific_name": "Ispidina picta",
+    "latitude": -6.0766,
+    "longitude": 37.5593,
+    "sample_count": 1
+  },
+  "222": {
+    "id": 222,
+    "primary_label": "222",
+    "common_name": "Mariqua Sunbird",
+    "scientific_name": "Cinnyris mariquensis",
+    "latitude": -2.9858,
+    "longitude": 34.6891,
+    "sample_count": 40
+  },
+  "223": {
+    "id": 223,
+    "primary_label": "223",
+    "common_name": "Gabar Goshawk",
+    "scientific_name": "Micronisus gabar",
+    "latitude": -2.9858,
+    "longitude": 25.5345,
+    "sample_count": 34
+  },
+  "224": {
+    "id": 224,
+    "primary_label": "224",
+    "common_name": "Yellow-fronted Canary",
+    "scientific_name": "Crithagra mozambica",
+    "latitude": -12.561,
+    "longitude": 26.8969,
+    "sample_count": 75
+  },
+  "225": {
+    "id": 225,
+    "primary_label": "225",
+    "common_name": "Brown-throated Wattle-eye",
+    "scientific_name": "Platysteira cyanea",
+    "latitude": 5.2627,
+    "longitude": 11.5103,
+    "sample_count": 67
+  },
+  "226": {
+    "id": 226,
+    "primary_label": "226",
+    "common_name": "Hunter's Cisticola",
+    "scientific_name": "Cisticola hunteri",
+    "latitude": -0.4975,
+    "longitude": 36.7792,
+    "sample_count": 16
+  },
+  "227": {
+    "id": 227,
+    "primary_label": "227",
+    "common_name": "Red-and-yellow Barbet",
+    "scientific_name": "Trachyphonus erythrocephalus",
+    "latitude": -2.8922,
+    "longitude": 37.5837,
+    "sample_count": 17
+  },
+  "228": {
+    "id": 228,
+    "primary_label": "228",
+    "common_name": "Dusky Turtle-Dove",
+    "scientific_name": "Streptopelia lugens",
+    "latitude": 4.922,
+    "longitude": 38.2951,
+    "sample_count": 8
+  },
+  "229": {
+    "id": 229,
+    "primary_label": "229",
+    "common_name": "Gray-headed Nigrita",
+    "scientific_name": "Nigrita canicapillus",
+    "latitude": 5.3618,
+    "longitude": -1.4396,
+    "sample_count": 24
+  },
+  "230": {
+    "id": 230,
+    "primary_label": "230",
+    "common_name": "Stuhlmann's Starling",
+    "scientific_name": "Poeoptera stuhlmanni",
+    "latitude": -0.225,
+    "longitude": 35.1293,
+    "sample_count": 4
+  },
+  "231": {
+    "id": 231,
+    "primary_label": "231",
+    "common_name": "White-eyed Slaty-Flycatcher",
+    "scientific_name": "Melaenornis fischeri",
+    "latitude": -1.2522,
+    "longitude": 36.4242,
+    "sample_count": 17
+  },
+  "232": {
+    "id": 232,
+    "primary_label": "232",
+    "common_name": "Somali Tit",
+    "scientific_name": "Melaniparus thruppi",
+    "latitude": -2.814,
+    "longitude": 37.5034,
+    "sample_count": 22
+  },
+  "233": {
+    "id": 233,
+    "primary_label": "233",
+    "common_name": "Mouse-colored Penduline-Tit",
+    "scientific_name": "Anthoscopus musculus",
+    "latitude": -1.0995,
+    "longitude": 37.4113,
+    "sample_count": 8
+  },
+  "234": {
+    "id": 234,
+    "primary_label": "234",
+    "common_name": "White-headed Buffalo-Weaver",
+    "scientific_name": "Dinemellia dinemelli",
+    "latitude": -2.3336,
+    "longitude": 36.0939,
+    "sample_count": 19
+  },
+  "235": {
+    "id": 235,
+    "primary_label": "235",
+    "common_name": "Lawrence's Goldfinch",
+    "scientific_name": "Spinus lawrencei",
+    "latitude": 32.6003,
+    "longitude": -116.8419,
+    "sample_count": 68
+  },
+  "236": {
+    "id": 236,
+    "primary_label": "236",
+    "common_name": "Common Bulbul",
+    "scientific_name": "Pycnonotus barbatus",
+    "latitude": -0.055,
+    "longitude": 29.6187,
+    "sample_count": 293
+  },
+  "237": {
+    "id": 237,
+    "primary_label": "237",
+    "common_name": "Northern Gray-headed Sparrow",
+    "scientific_name": "Passer griseus",
+    "latitude": 3.894,
+    "longitude": 13.0494,
+    "sample_count": 46
+  },
+  "238": {
+    "id": 238,
+    "primary_label": "238",
+    "common_name": "R\u00fcppell's Starling",
+    "scientific_name": "Lamprotornis purpuroptera",
+    "latitude": -0.055,
+    "longitude": 32.5836,
+    "sample_count": 33
+  },
+  "239": {
+    "id": 239,
+    "primary_label": "239",
+    "common_name": "Fork-tailed Drongo",
+    "scientific_name": "Dicrurus adsimilis",
+    "latitude": -19.1786,
+    "longitude": 30.9334,
+    "sample_count": 137
+  },
+  "240": {
+    "id": 240,
+    "primary_label": "240",
+    "common_name": "African Dusky Flycatcher",
+    "scientific_name": "Muscicapa adusta",
+    "latitude": -7.73,
+    "longitude": 32.9224,
+    "sample_count": 31
+  },
+  "241": {
+    "id": 241,
+    "primary_label": "241",
+    "common_name": "African Sacred Ibis",
+    "scientific_name": "Threskiornis aethiopicus",
+    "latitude": -29.7153,
+    "longitude": 26.5602,
+    "sample_count": 6
+  },
+  "242": {
+    "id": 242,
+    "primary_label": "242",
+    "common_name": "Hamerkop",
+    "scientific_name": "Scopus umbretta",
+    "latitude": 0.064,
+    "longitude": 32.479,
+    "sample_count": 30
+  },
+  "243": {
+    "id": 243,
+    "primary_label": "243",
+    "common_name": "Pied Kingfisher",
+    "scientific_name": "Ceryle rudis",
+    "latitude": 6.1702,
+    "longitude": 36.6653,
+    "sample_count": 121
+  },
+  "244": {
+    "id": 244,
+    "primary_label": "244",
+    "common_name": "African Gray Flycatcher",
+    "scientific_name": "Bradornis microrhynchus",
+    "latitude": -2.9813,
+    "longitude": 36.6951,
+    "sample_count": 8
+  },
+  "245": {
+    "id": 245,
+    "primary_label": "245",
+    "common_name": "Reichenow's Seedeater",
+    "scientific_name": "Crithagra reichenowi",
+    "latitude": -2.9858,
+    "longitude": 37.5975,
+    "sample_count": 25
+  },
+  "246": {
+    "id": 246,
+    "primary_label": "246",
+    "common_name": "Amethyst Sunbird",
+    "scientific_name": "Chalcomitra amethystina",
+    "latitude": -17.6938,
+    "longitude": 28.4972,
+    "sample_count": 43
+  },
+  "247": {
+    "id": 247,
+    "primary_label": "247",
+    "common_name": "Laughing Dove",
+    "scientific_name": "Streptopelia senegalensis",
+    "latitude": 17.7172,
+    "longitude": 36.9794,
+    "sample_count": 109
+  },
+  "248": {
+    "id": 248,
+    "primary_label": "248",
+    "common_name": "Gray Wren-Warbler",
+    "scientific_name": "Calamonastes simplex",
+    "latitude": -2.8022,
+    "longitude": 37.0472,
+    "sample_count": 20
+  },
+  "249": {
+    "id": 249,
+    "primary_label": "249",
+    "common_name": "Black-headed Heron",
+    "scientific_name": "Ardea melanocephala",
+    "latitude": -10.6751,
+    "longitude": 26.8377,
+    "sample_count": 16
+  },
+  "250": {
+    "id": 250,
+    "primary_label": "250",
+    "common_name": "Long-crested Eagle",
+    "scientific_name": "Lophaetus occipitalis",
+    "latitude": -33.3275,
+    "longitude": 26.644,
+    "sample_count": 15
+  },
+  "251": {
+    "id": 251,
+    "primary_label": "251",
+    "common_name": "Crowned Hornbill",
+    "scientific_name": "Lophoceros alboterminatus",
+    "latitude": -6.8714,
+    "longitude": 35.5943,
+    "sample_count": 49
+  },
+  "252": {
+    "id": 252,
+    "primary_label": "252",
+    "common_name": "Long-tailed Cormorant",
+    "scientific_name": "Microcarbo africanus",
+    "latitude": 14.7279,
+    "longitude": -17.4329,
+    "sample_count": 1
+  },
+  "253": {
+    "id": 253,
+    "primary_label": "253",
+    "common_name": "Brown-crowned Tchagra",
+    "scientific_name": "Tchagra australis",
+    "latitude": -3.1887,
+    "longitude": 29.921,
+    "sample_count": 62
+  },
+  "254": {
+    "id": 254,
+    "primary_label": "254",
+    "common_name": "Barn Swallow",
+    "scientific_name": "Hirundo rustica",
+    "latitude": 45.5998,
+    "longitude": 3.8975,
+    "sample_count": 500
+  },
+  "255": {
+    "id": 255,
+    "primary_label": "255",
+    "common_name": "Cattle Egret",
+    "scientific_name": "Bubulcus ibis",
+    "latitude": 28.5785,
+    "longitude": -7.8122,
+    "sample_count": 166
+  },
+  "256": {
+    "id": 256,
+    "primary_label": "256",
+    "common_name": "Red-eyed Dove",
+    "scientific_name": "Streptopelia semitorquata",
+    "latitude": -1.0639,
+    "longitude": 26.68,
+    "sample_count": 70
+  },
+  "257": {
+    "id": 257,
+    "primary_label": "257",
+    "common_name": "Blacksmith Lapwing",
+    "scientific_name": "Vanellus armatus",
+    "latitude": -25.3364,
+    "longitude": 26.6719,
+    "sample_count": 50
+  },
+  "258": {
+    "id": 258,
+    "primary_label": "258",
+    "common_name": "Little Egret",
+    "scientific_name": "Egretta garzetta",
+    "latitude": 39.799,
+    "longitude": 0.3577,
+    "sample_count": 378
+  },
+  "259": {
+    "id": 259,
+    "primary_label": "259",
+    "common_name": "Egyptian Goose",
+    "scientific_name": "Alopochen aegyptiaca",
+    "latitude": 49.0326,
+    "longitude": 7.0019,
+    "sample_count": 152
+  },
+  "260": {
+    "id": 260,
+    "primary_label": "260",
+    "common_name": "Red-headed Weaver",
+    "scientific_name": "Anaplectes rubriceps",
+    "latitude": -0.5636,
+    "longitude": 35.5342,
+    "sample_count": 5
+  },
+  "261": {
+    "id": 261,
+    "primary_label": "261",
+    "common_name": "Fan-tailed Widowbird",
+    "scientific_name": "Euplectes axillaris",
+    "latitude": -0.57,
+    "longitude": 30.76,
+    "sample_count": 5
+  },
+  "262": {
+    "id": 262,
+    "primary_label": "262",
+    "common_name": "Black-collared Apalis",
+    "scientific_name": "Oreolais pulcher",
+    "latitude": -0.6056,
+    "longitude": 36.734,
+    "sample_count": 22
+  },
+  "263": {
+    "id": 263,
+    "primary_label": "263",
+    "common_name": "Eastern Double-collared Sunbird",
+    "scientific_name": "Cinnyris mediocris",
+    "latitude": -1.0173,
+    "longitude": 36.6781,
+    "sample_count": 21
+  }
+}

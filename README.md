@@ -281,8 +281,10 @@ for pred in results:
 
 ## Web Application UI & UX Highlights
 
-The Web GUI is crafted with an **Illustrative Design** aesthetic and the vibrant, nature-inspired [Color Hunt Turquoise & Coral Palette](https://colorhunt.co/palette/8ad6d1359fa0fff0c5ff8c52):
+The Web GUI is crafted with an **Illustrative Design** aesthetic and built using the following color palette:
+- **Color Palette Link**: [https://colorhunt.co/palette/8ad6d1359fa0fff0c5ff8c52](https://colorhunt.co/palette/8ad6d1359fa0fff0c5ff8c52)
 
+### Palette Role Breakdown:
 - **Soothing Canvas (`#FCF9F0`)**: Eliminates harsh glare with a natural field-notebook warm base and subtle dotted texture.
 - **Ocean Teal (`#359FA0`)**: Primary brand emblems, crisp headings, active border states, and high-frequency audio indicators.
 - **Soft Mint Turquoise (`#8AD6D1`)**: Waveform upper mirror bars, secondary accent badges, and soft luminous glows.
@@ -311,6 +313,6 @@ You can directly drag-and-drop `.parquet` files from the BirdCLEF dataset into t
 
 - **Project Title**: Bird Species Recognition Using Bioacoustic Signals
 - **Author / Lead Developer**: [Aditya Kumar](https://github.com/Adityakumar926)
-- **Academic Context**: Project Group 18 &bull; Bioacoustic Machine Learning
+- **Domain**: Bioacoustic Deep Learning & Environmental AI
 - **Dataset Courtesy**: [Kaggle BirdCLEF 2023](https://www.kaggle.com/competitions/birdclef-2023) & [Xeno-Canto](https://xeno-canto.org/)
 - **Core Frameworks**: PyTorch, Librosa, Torchaudio, React, Vite, Leaflet, Tailwind CSS, Flask.

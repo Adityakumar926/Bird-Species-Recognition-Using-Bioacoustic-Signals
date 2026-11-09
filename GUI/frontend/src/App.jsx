@@ -147,7 +147,7 @@ export default function App() {
 
                 <div className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-[#E3F2FD] border border-[#90CAF9] text-xs">
                   <Award className="h-3.5 w-3.5 text-[#2196F3]" />
-                  <span className="text-[#0D47A1] font-extrabold">Top-5: 71.73%</span>
+                  <span className="text-[#0D47A1] font-extrabold">Top-1: 72.38% | Top-5: 87.46%</span>
                 </div>
               </div>
             </div>

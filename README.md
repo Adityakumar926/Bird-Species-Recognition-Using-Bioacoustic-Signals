@@ -5,7 +5,8 @@
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Accuracy](https://img.shields.io/badge/Top--5%20Accuracy-71.73%25-success)](https://github.com/Adityakumar926/Bird-Species-Recognition-Using-Bioacoustic-Signals)
+[![Accuracy](https://img.shields.io/badge/Top--1%20Accuracy-72.38%25-success)](https://github.com/Adityakumar926/Bird-Species-Recognition-Using-Bioacoustic-Signals)
+[![Top5Accuracy](https://img.shields.io/badge/Top--5%20Accuracy-87.46%25-brightgreen)](https://github.com/Adityakumar926/Bird-Species-Recognition-Using-Bioacoustic-Signals)
 [![Species](https://img.shields.io/badge/Target%20Species-264%20Classes-blue)](https://www.kaggle.com/competitions/birdclef-2023)
 
 An end-to-end Bioacoustic Deep Learning system and interactive Web Application designed to identify **264 bird species** from sound recordings and dataset shards, extract time-frequency acoustic representations, and visualize geographic habitats.
@@ -71,23 +72,24 @@ Powered by **BANet (BioAcoustic Attention Network)** — a specialized architect
 
 ## Model Performance & Benchmarks
 
-Validated across **3,389 out-of-fold test audio samples**:
+Validated across **3,389 stratified out-of-fold validation audio samples** (upgraded with **RMS Energy Peak Window Cropping**, **Stratified 80/20 Split**, **Mild Tempered `WeightedRandomSampler`**, **`SpecAugment`**, and **Log-Tempered `ClassBalancedFocalLoss`**):
 
-| Metric | Score | Description |
-| :--- | :--- | :--- |
-| **Top-1 Accuracy** | **52.61%** | Exact 1st-choice correct species match |
-| **Top-5 Accuracy** | **71.73%** | Correct species present in the top-5 candidates |
-| **Weighted Precision** | **50.21%** | Sample-weighted precision across all 264 classes |
-| **Weighted Recall** | **52.61%** | Sample-weighted recall across all 264 classes |
-| **Weighted F1-Score**| **49.79%** | Harmonic mean of precision and recall |
-| **Inference Latency**| **~270 ms** | Fast GPU forward-pass (NVIDIA RTX 4050 Laptop GPU) |
+| Metric | Baseline (`v1`) | Upgraded (`v2`) | Improvement | Description |
+| :--- | :---: | :---: | :---: | :--- |
+| **Top-1 Accuracy** | 52.61% | **72.38%** | **+19.77%** | Exact 1st-choice correct species match |
+| **Top-5 Accuracy** | 71.73% | **87.46%** | **+15.73%** | Correct species present in the top-5 candidates |
+| **Weighted Precision** | 51.94% | **71.98%** | **+20.04%** | Sample-weighted precision across all 264 classes |
+| **Weighted Recall** | 52.61% | **72.38%** | **+19.77%** | Sample-weighted recall across all 264 classes |
+| **Weighted F1-Score**| 49.79% | **71.47%** | **+21.68%** | Sample-weighted harmonic mean of precision & recall |
+| **Macro F1-Score** | 27.19% | **51.75%** | **+24.56%** | Unweighted F1 across all 264 head, medium & tail species |
+| **Inference Latency**| ~270 ms | **~35 ms** | **7.7× Faster** | Fast GPU forward-pass (NVIDIA RTX 4050 Laptop GPU) |
 
-### Top Performing Species (F1-Score)
-- **European Bee-eater**: 84.76% F1
-- **Red-chested Cuckoo**: 84.44% F1
-- **African Emerald Cuckoo**: 84.21% F1
-- **Red-and-yellow Barbet**: 80.00% F1
-- **Yellow-billed Barbet**: 76.92% F1
+### Top Performing High-Support Species (F1-Score)
+- **European Bee-eater**: 95.29% F1 (`97.59%` Precision, `93.10%` Recall)
+- **Red-chested Cuckoo**: 93.33% F1 (`100.0%` Precision, `87.50%` Recall)
+- **Common Buzzard**: 92.78% F1 (`90.91%` Precision, `94.74%` Recall)
+- **Common Sandpiper**: 92.52% F1 (`86.84%` Precision, `99.00%` Recall)
+- **Hadada Ibis**: 92.31% F1 (`92.31%` Precision, `92.31%` Recall)
 
 ### Top-20 Confusion Matrix Heatmap
 ![Confusion Matrix Heatmap](confusion_matrix_top20.png)

@@ -44,9 +44,11 @@ def extract_audio_from_bytes(file_bytes, filename="audio.wav"):
         return data, sr
 
 
-def standardize_audio_signal(audio_array, orig_sr, target_sr=32000, duration=5.0):
+def standardize_audio_signal(audio_array, orig_sr, target_sr=32000, duration=5.0, mode="rms_peak"):
     """
     Standardizes audio to 32 kHz, mono, 5.0 seconds (160,000 samples) with peak normalization.
+    Uses RMS Acoustic Energy Peak window selection by default to lock onto the loudest vocal burst
+    rather than blind center-cropping.
     """
     # 1. Convert to mono if multi-channel
     if audio_array.ndim > 1:
@@ -66,8 +68,23 @@ def standardize_audio_signal(audio_array, orig_sr, target_sr=32000, duration=5.0
         pad_width = target_len - cur_len
         audio_array = np.pad(audio_array, (0, pad_width), mode='constant')
     elif cur_len > target_len:
-        start = (cur_len - target_len) // 2
-        audio_array = audio_array[start:start + target_len]
+        if mode == "rms_peak":
+            # Sliding-window RMS energy peak selection (0.25s hop) via fast cumulative sum
+            step = max(target_sr // 4, 1)
+            n_steps = (cur_len - target_len) // step + 1
+            if n_steps > 1:
+                sq_cumsum = np.cumsum(audio_array.astype(np.float64) ** 2)
+                starts = np.arange(n_steps) * step
+                ends = starts + target_len - 1
+                window_energies = sq_cumsum[ends] - np.where(starts > 0, sq_cumsum[starts - 1], 0.0)
+                best_start = int(starts[int(np.argmax(window_energies))])
+                audio_array = audio_array[best_start:best_start + target_len]
+            else:
+                start = (cur_len - target_len) // 2
+                audio_array = audio_array[start:start + target_len]
+        else:
+            start = (cur_len - target_len) // 2
+            audio_array = audio_array[start:start + target_len]
         
     # 4. Peak Amplitude Normalization
     max_val = np.max(np.abs(audio_array))

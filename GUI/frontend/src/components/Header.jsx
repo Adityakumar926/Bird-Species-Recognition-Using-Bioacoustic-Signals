@@ -60,7 +60,7 @@ export default function Header() {
           {/* Model Accuracy Badge */}
           <div className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-[#FFF0C5]/85 border border-[#F3DEB0] text-xs">
             <Award className="h-3.5 w-3.5 text-[#FF8C52]" />
-            <span className="text-[#8C4A1D] font-extrabold">Top-1: 72.38% | Top-5: 87.46%</span>
+            <span className="text-[#8C4A1D] font-extrabold">Top-1: 88.65% | Top-5: 95.74%</span>
           </div>
 
           {/* Online Pulse */}

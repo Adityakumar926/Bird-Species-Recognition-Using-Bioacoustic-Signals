@@ -1,6 +1,6 @@
 # BioAcoustic AI - Real-Time Bird Species Recognition Web Application
 
-A full-stack deep learning web application for bioacoustic bird vocalization identification, acoustic feature visualization, and geographic habitat mapping across **264 bird species** from the BirdCLEF benchmark dataset.
+A full-stack deep learning web application for bioacoustic bird vocalization identification, 3-stage spectral denoising, acoustic feature visualization, and geographic habitat mapping across **264 bird species** from the BirdCLEF benchmark dataset (**88.65% Top-1 / 95.74% Top-5 Accuracy**).
 
 ---
 

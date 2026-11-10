@@ -60,6 +60,13 @@ def standardize_audio_signal(audio_array, orig_sr, target_sr=32000, duration=5.0
     if orig_sr != target_sr:
         audio_array = librosa.resample(audio_array, orig_sr=orig_sr, target_sr=target_sr)
         
+    # 2B. Stage-1 Bioacoustic Denoising: Zero-Phase FFT High-Pass Filter (>120 Hz)
+    if len(audio_array) > 64:
+        fft_vals = np.fft.rfft(audio_array)
+        freqs = np.fft.rfftfreq(len(audio_array), d=1.0 / target_sr)
+        hp_mask = np.clip((freqs - 80.0) / 40.0, 0.0, 1.0)
+        audio_array = np.fft.irfft(fft_vals * hp_mask, n=len(audio_array)).astype(np.float32)
+        
     # 3. Fixed duration window (5.0s = 160,000 samples)
     target_len = int(target_sr * duration)
     cur_len = len(audio_array)
@@ -94,9 +101,9 @@ def standardize_audio_signal(audio_array, orig_sr, target_sr=32000, duration=5.0
     return audio_array, target_sr
 
 
-def compute_mel_spectrogram(audio_array, sr=32000, n_mels=128, n_fft=2048, hop_length=512):
+def compute_mel_spectrogram(audio_array, sr=32000, n_mels=128, n_fft=2048, hop_length=512, denoise=True):
     """
-    Extracts 128-band Log-Mel Spectrogram. Shape: (128, 313).
+    Extracts 128-band Log-Mel Spectrogram with Stationary Spectral Noise Gating. Shape: (128, 313).
     """
     mel_spec = librosa.feature.melspectrogram(
         y=audio_array,
@@ -109,7 +116,13 @@ def compute_mel_spectrogram(audio_array, sr=32000, n_mels=128, n_fft=2048, hop_l
         power=2.0
     )
     log_mel = librosa.power_to_db(mel_spec, ref=np.max)
-    return log_mel
+    if denoise:
+        noise_floor = np.percentile(log_mel, 20, axis=1, keepdims=True)
+        snr_db = log_mel - noise_floor
+        spectral_gate = 1.0 / (1.0 + np.exp(-(snr_db - 3.0) / 2.0))
+        blend = 0.82 + 0.18 * spectral_gate
+        log_mel = log_mel * blend + (-80.0) * (1.0 - blend)
+    return log_mel.astype(np.float32)
 
 
 def generate_waveform_peaks(audio_array, num_points=120):

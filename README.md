@@ -5,8 +5,8 @@
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Accuracy](https://img.shields.io/badge/Top--1%20Accuracy-72.38%25-success)](https://github.com/Adityakumar926/Bird-Species-Recognition-Using-Bioacoustic-Signals)
-[![Top5Accuracy](https://img.shields.io/badge/Top--5%20Accuracy-87.46%25-brightgreen)](https://github.com/Adityakumar926/Bird-Species-Recognition-Using-Bioacoustic-Signals)
+[![Accuracy](https://img.shields.io/badge/Top--1%20Accuracy-88.65%25-success)](https://github.com/Adityakumar926/Bird-Species-Recognition-Using-Bioacoustic-Signals)
+[![Top5Accuracy](https://img.shields.io/badge/Top--5%20Accuracy-95.74%25-brightgreen)](https://github.com/Adityakumar926/Bird-Species-Recognition-Using-Bioacoustic-Signals)
 [![Species](https://img.shields.io/badge/Target%20Species-264%20Classes-blue)](https://www.kaggle.com/competitions/birdclef-2023)
 
 An end-to-end Bioacoustic Deep Learning system and interactive Web Application designed to identify **264 bird species** from sound recordings and dataset shards, extract time-frequency acoustic representations, and visualize geographic habitats.
@@ -72,24 +72,26 @@ Powered by **BANet (BioAcoustic Attention Network)** — a specialized architect
 
 ## Model Performance & Benchmarks
 
-Validated across **3,389 stratified out-of-fold validation audio samples** (upgraded with **RMS Energy Peak Window Cropping**, **Stratified 80/20 Split**, **Mild Tempered `WeightedRandomSampler`**, **`SpecAugment`**, and **Log-Tempered `ClassBalancedFocalLoss`**):
+Validated across **264 bird species** using **3-Stage Bioacoustic Denoising** (Zero-Phase FFT High-Pass `>120 Hz` + Stationary Spectral Noise Gating), **RMS Energy Peak Window Cropping**, **High-SNR Focal Curation**, **Stratified 80/20 Split**, **`SpecAugment`**, and **Log-Tempered `ClassBalancedFocalLoss`**:
 
-| Metric | Baseline (`v1`) | Upgraded (`v2`) | Improvement | Description |
-| :--- | :---: | :---: | :---: | :--- |
-| **Top-1 Accuracy** | 52.61% | **72.38%** | **+19.77%** | Exact 1st-choice correct species match |
-| **Top-5 Accuracy** | 71.73% | **87.46%** | **+15.73%** | Correct species present in the top-5 candidates |
-| **Weighted Precision** | 51.94% | **71.98%** | **+20.04%** | Sample-weighted precision across all 264 classes |
-| **Weighted Recall** | 52.61% | **72.38%** | **+19.77%** | Sample-weighted recall across all 264 classes |
-| **Weighted F1-Score**| 49.79% | **71.47%** | **+21.68%** | Sample-weighted harmonic mean of precision & recall |
-| **Macro F1-Score** | 27.19% | **51.75%** | **+24.56%** | Unweighted F1 across all 264 head, medium & tail species |
-| **Inference Latency**| ~270 ms | **~35 ms** | **7.7× Faster** | Fast GPU forward-pass (NVIDIA RTX 4050 Laptop GPU) |
+| Metric | Baseline (`v1`) | Upgraded (`v2`) | Final Denoised (`v3`) | Total Improvement | Description |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **Training Top-1 Accuracy** | 64.45% | 75.80% | **93.55%** | **+29.10%** | Top-1 accuracy on training split |
+| **Validation Top-1 Accuracy** | 52.61% | 72.38% | **88.65%** | **+36.04%** | Exact 1st-choice correct species match |
+| **Validation Top-5 Accuracy** | 71.73% | 87.46% | **95.74%** | **+24.01%** | Correct species present in top-5 candidates |
+| **Weighted Precision** | 51.94% | 71.98% | **88.07%** | **+36.13%** | Sample-weighted precision across 264 classes |
+| **Weighted Recall** | 52.61% | 72.38% | **88.65%** | **+36.04%** | Sample-weighted recall across 264 classes |
+| **Weighted F1-Score**| 49.79% | 71.47% | **87.41%** | **+37.62%** | Sample-weighted harmonic mean of P & R |
+| **Macro F1-Score** | 27.19% | 51.75% | **76.34%** | **+49.15% (2.81×)** | Unweighted F1 across all 264 species |
+| **Head Species Recall ($\ge 100$ clips)** | — | 78.62% | **94.67%** | **+16.05%** | Recall across high-support bird species |
+| **Inference Latency**| ~270 ms | ~35 ms | **~35 ms** | **7.7× Faster** | Fast GPU forward-pass (NVIDIA RTX 4050 GPU) |
 
-### Top Performing High-Support Species (F1-Score)
-- **European Bee-eater**: 95.29% F1 (`97.59%` Precision, `93.10%` Recall)
-- **Red-chested Cuckoo**: 93.33% F1 (`100.0%` Precision, `87.50%` Recall)
-- **Common Buzzard**: 92.78% F1 (`90.91%` Precision, `94.74%` Recall)
-- **Common Sandpiper**: 92.52% F1 (`86.84%` Precision, `99.00%` Recall)
-- **Hadada Ibis**: 92.31% F1 (`92.31%` Precision, `92.31%` Recall)
+### Top Performing Species (100.0% Validation F1-Score)
+- **Green Woodhoopoe**: 100.00% F1 (`100.0%` Precision, `100.0%` Recall)
+- **Black-and-white-casqued Hornbill**: 100.00% F1 (`100.0%` Precision, `100.0%` Recall)
+- **Blue-spotted Wood-Dove**: 100.00% F1 (`100.0%` Precision, `100.0%` Recall)
+- **Baglafecht Weaver**: 100.00% F1 (`100.0%` Precision, `100.0%` Recall)
+- **Bronze Sunbird**: 100.00% F1 (`100.0%` Precision, `100.0%` Recall)
 
 ### Top-20 Confusion Matrix Heatmap
 ![Confusion Matrix Heatmap](confusion_matrix_top20.png)
